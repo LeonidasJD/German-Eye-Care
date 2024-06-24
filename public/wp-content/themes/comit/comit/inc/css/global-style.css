@@ -1,1 +1,23 @@
-@import url(./homepage.css)
+:root{
+    --bela:#FFFFFF;
+    --svetlo-zelena:#61C555;
+    --accent:#4C922D;
+    --tamno-zelena:#336B15;
+    --link-zelena:#36641C;
+    --border-zelena:#5B9356;
+    --zelena-primarna:#76BA51;
+    --crno-zelenkasta:#0E130B;
+    --text:#050910;
+    --paragraf:#474747;
+    --datum:#353535;
+    --crna:#000000;
+
+
+    
+
+}
+
+@import url(./homepage.css);
+
+
+
