@@ -139,6 +139,7 @@ add_action( 'widgets_init', 'comit_widgets_init' );
  */
 function comit_scripts() {
 	wp_enqueue_style( 'comit-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'global-style', get_template_directory_uri() . '/inc/css/global-style.css' );
 	wp_style_add_data( 'comit-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'comit-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
