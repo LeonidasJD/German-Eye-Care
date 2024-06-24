@@ -1,3 +1,5 @@
+@import url(./homepage.css);
+@import url(./header.css);
 :root{
     --bela:#FFFFFF;
     --svetlo-zelena:#61C555;
@@ -17,7 +19,35 @@
 
 }
 
-@import url(./homepage.css);
+a{
+	text-decoration: none;
+ }
+ body{
+	margin: 0px!important;
+ }
 
+.container-14{
+    max-width: 1440px;
+    margin: auto;
+}
 
+@media screen and (max-width:2440px){
+    .container-14{
+            max-width:1920px;
+        }
+    
+    }
+@media screen and (max-width:1920px){
+    .container-14{
+            max-width:1600px;
+            }
+        
+    }
+    
+@media screen and (max-width:1600px){
+        .container-14{
+            max-width:1440px;
+            }
+            
+        }
 
