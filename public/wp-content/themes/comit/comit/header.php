@@ -28,37 +28,30 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'comit' ); ?></a>
+	
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$comit_description = get_bloginfo( 'description', 'display' );
-			if ( $comit_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $comit_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'comit' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
+	<!-- DESKTOP HEADER START -->
+	<div class="container-header">
+		<div class="container-14">
+		<header id="masthead" class="site-header">
+		<div class="header-wrapper">
+			<div class="header-under-wrapper">
+			<div><?php  wp_nav_menu( 
+        array( 
+            'theme_location' => 'menu-1'
+        ) 
+    );  ?></div>
+		<div class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/uploads/2024/06/vector.webp" alt=""></a></div>
+		<div class="button-wrapper">
+			
+			<a class="button-type-2 contact-button" href="/kontakt/">Kontakt</a>
+		</div>
+			</div>
+			<!-- <div class="horizontal-line"></div> -->
+		
+		</div>
+		
 	</header><!-- #masthead -->
+		</div>
+	</div>
+	<!-- DESKTOP HEADER END -->
