@@ -37,17 +37,7 @@
 .header-logo img{
     width: 232px;
 }
-.shop-button{
-    border-radius: 4px;
-    border: 1px solid #0E130B;
-    padding: 8px 30px 8px 30px;
-    font-family: 'Lato';
-    font-size: 14px;
-    font-weight: 400;
-    color: #0E130B;
-    margin-right: 25px;
-    background-color: white;
-} 
+
 .contact-button{
     border-radius: 4px;
     background-color: var(--accent);
