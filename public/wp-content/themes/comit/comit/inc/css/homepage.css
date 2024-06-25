@@ -1,3 +1,48 @@
-.test-home h1{
-    color: blue;
+/* HERO SECTION CSS START */
+
+.hero-section-wrapper{
+    background-image: url(/wp-content/uploads/2024/06/slika-scaled.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px 65px 0px 65px;
+    border-radius: 12px;
+
 }
+.hero-section-underwrapper{
+    padding: 110px 0px 110px 40px;
+}
+.hero-section-underwrapper h1{
+    margin: 0px;
+    font-family: var(--glavni-font);
+    color: var(--accent);
+    font-size: 60px;
+    font-weight: 400;
+}
+/* HERO SECTION CSS END */
+
+/* TEXT AND FORM SECTION CSS START */
+.text-and-form-wrapper{
+    margin: 52px 65px 0px 65px;
+}
+.text-and-form-underwrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+}
+.main-text h2{
+    font-family: var(--glavni-font);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 128%;
+    color: var(--crno-zelenkasta);
+    margin: 0px 0px 26px 0px;
+}
+.main-text p{
+    font-family: var(--glavni-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 128.5%;
+    color: var(--paragraf);
+}
+/* TEXT AND FORM SECTION CSS END */
