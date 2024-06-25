@@ -1,7 +1,4 @@
-.container-header{
-    
-    border-bottom: 1px solid #60C656;
-}
+
 
 .header-under-wrapper{
     display: flex;
@@ -9,6 +6,7 @@
     align-items: center;
     padding: 15px 0px 15px 0px;
     margin: 0px 65px 0px 65px;
+    border-bottom: 1px solid #60C656;
 }
 #menu-menu-1{
     display: flex;

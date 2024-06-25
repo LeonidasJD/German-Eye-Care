@@ -1,0 +1,23 @@
+.footer-wrapper{
+    padding: 0px 65px 50px 65px;
+}
+.footer-under-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background: var(--text);
+    padding: 90px 97px 15px 97px;
+    border-radius: 12px;
+}
+.footer-nav-title{
+    font-family: var(--glavni-font);
+    color: var(--bela);
+    opacity: 40%;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 0px;
+}
+.footer-divider{
+    background: linear-gradient(to bottom, #050910 0%, #FFFFFF 45%, #000000 100%);
+    height: 150px;
+    width: 2px;
+}

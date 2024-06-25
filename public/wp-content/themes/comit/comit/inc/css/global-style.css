@@ -1,5 +1,6 @@
 @import url(./homepage.css);
 @import url(./header.css);
+@import url(./footer.css);
 :root{
     --bela:#FFFFFF;
     --svetlo-zelena:#61C555;
@@ -14,6 +15,7 @@
     --datum:#353535;
     --crna:#000000;
 
+    --glavni-font:'Lato';
 
     
 
