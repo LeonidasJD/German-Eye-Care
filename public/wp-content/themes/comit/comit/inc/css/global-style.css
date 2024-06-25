@@ -1,6 +1,7 @@
 @import url(./homepage.css);
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./schedule-appointment-form.css);
 :root{
     --bela:#FFFFFF;
     --svetlo-zelena:#61C555;
@@ -31,6 +32,11 @@ a{
 .container-14{
     max-width: 1440px;
     margin: auto;
+}
+.change-select{
+    font-weight: 600!important;
+    color: var(--crno-zelenkasta)!important;
+    opacity: 90%;
 }
 
 @media screen and (max-width:2440px){

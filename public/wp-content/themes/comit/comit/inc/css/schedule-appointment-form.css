@@ -1,0 +1,128 @@
+#frm_field_15_container{
+    display: none;
+}
+.form-wrapper{
+    border: 1px solid #D8D8D8;
+    border-radius: 12px;
+    padding: 32px 50px 0px 50px;
+    box-shadow: -9px 6px 16px 3px #F8F8F7;
+}
+.form-wrapper h2{
+    text-align: center;
+    margin: 0px;
+    text-align: center;
+    margin: 0px;
+    font-family: var(--glavni-font);
+    font-weight: 400;
+    line-height: 117%;
+    font-size: 29px;
+    color: var(--crno-zelenkasta);
+    margin-bottom: 42px;
+}
+.form-wrapper .frm_form_fields  label{
+    display: none!important;
+}
+.form-wrapper .frm_form_fields button{
+    font-family: var(--glavni-font);
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    background-color: #4C922D;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .1);
+    cursor: pointer;
+    border: 1px solid #4C922D;
+}
+.form-wrapper .frm_form_fields input{
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #5B9356 !important;
+    border-radius: 0px;
+    box-shadow: none !important;
+    padding: 0px;
+    font-family: var(--glavni-font);
+    font-weight: bold !important;
+    color: var(--crno-zelenkasta)!important;
+    opacity: 90%!important;
+}
+.form-wrapper .frm_form_fields input::placeholder{
+    font-family: var(--glavni-font);
+    font-size: 16px!important;
+    font-weight: bold!important;
+    color: rgba(14,19,11,0.6) !important;
+    
+}
+.form-wrapper .frm_form_fields select{
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #5B9356 !important;
+    border-radius: 0px;
+    box-shadow: none !important;
+    padding: 0px;
+    font-family: var(--glavni-font);
+    font-size: 16px!important;
+    
+    font-weight: bold !important;
+    
+
+}
+.form-wrapper .frm_form_fields button svg{
+    margin-left: 17.5px;
+}
+#field_r4twn{
+   
+    border: 1px solid #5B9356 !important;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 6px;
+
+}
+#field_r4twn::placeholder{
+    color: #5B9356 !important;
+   opacity: 100%;
+}
+.frm_time_wrap{
+    border: 1px solid #5B9356 !important;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3px;
+    
+}
+.frm_error{
+    font-family: var(--glavni-font)!important;
+}
+.frm_error_style p{
+    font-family: var(--glavni-font)!important;
+}
+#field_lddwq_H,#field_lddwq_m{
+    border: none!important;
+}
+#field_3cari-otext,#field_coxqx-otext{
+    display: none !important;
+}
+.paralel-fields{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.paralel-fields img{
+    height: 12px;
+}
+#frm_field_9_container,#frm_field_11_container,#frm_field_12_container,#frm_field_13_container{
+    width: 50%;
+}
+.form-divider{
+    margin-top: 0.7rem;
+}

@@ -28,7 +28,7 @@
 .text-and-form-underwrapper{
     display: flex;
     justify-content: space-between;
-    gap: 110px;
+    gap: 150px;
 }
 .main-text h2{
     font-family: var(--glavni-font);
@@ -44,5 +44,6 @@
     font-weight: 400;
     line-height: 128.5%;
     color: var(--paragraf);
+    width: 673px;
 }
 /* TEXT AND FORM SECTION CSS END */
