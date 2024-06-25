@@ -32,7 +32,7 @@
 
 	<!-- DESKTOP HEADER START -->
 	<div class="container-header">
-		<div class="container-14">
+		<div class="container-14 ">
 		<header id="masthead" class="site-header">
 		<div class="header-wrapper">
 			<div class="header-under-wrapper">
