@@ -50,6 +50,7 @@ function comit_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'comit' ),
+			'menu-footer' => esc_html('Footer-menu','comit'),
 		)
 	);
 

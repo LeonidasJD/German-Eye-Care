@@ -12,19 +12,23 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'comit' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'comit' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'comit' ), 'comit', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		<div class="container-footer">
+			<div class="container-14">
+				<div class="footer-wrapper">
+					<div class="footer-under-wrapper">
+						<div class="footer-nav">
+							<h2 class="footer-nav-title">Menü</h2>
+						</div>
+						<div class="footer-divider"></div>
+						<div class="footer-nav"><h2 class="footer-nav-title">Rechtliches</h2></div>
+						<div class="footer-divider"></div>
+						<div class="footer-nav"><h2 class="footer-nav-title">Standorte</h2></div>
+						<div class="footer-divider"></div>
+						<div class="footer-nav"><h2 class="footer-nav-title">Sozialen Medien</h2></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
