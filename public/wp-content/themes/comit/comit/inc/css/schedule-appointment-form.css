@@ -133,3 +133,6 @@
 .ui-datepicker .ui-datepicker-prev:before {
     content: '\2193' !important;
 }
+.frm_error_style{
+    display: none;
+}
