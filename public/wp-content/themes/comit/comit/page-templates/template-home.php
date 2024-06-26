@@ -48,65 +48,49 @@ get_header();
 
     
     document.addEventListener('DOMContentLoaded', (event) => {
-    // Kreiranje prvog div elementa sa klasom "paralel-fields"
+    
     var firstParallelFieldsDiv = document.createElement('div');
     firstParallelFieldsDiv.className = 'paralel-fields';
 
-    // Pronalazak postojećeg div elementa sa ID-jem "frm_field_8_container"
     var existingDiv = document.getElementById('frm_field_8_container');
 
-    // Umetanje prvog paralel-fields div elementa ispod postojećeg div elementa
     existingDiv.parentNode.insertBefore(firstParallelFieldsDiv, existingDiv.nextSibling);
 
-    // Pronalazak elemenata sa ID-jevima "frm_field_9_container" i "frm_field_11_container"
     var field9 = document.getElementById('frm_field_9_container');
     var field11 = document.getElementById('frm_field_11_container');
 
-    // Premestanje elemenata unutar prvog paralel-fields div elementa
     firstParallelFieldsDiv.appendChild(field9);
 
-    // Kreiranje novog div elementa sa klasom "form-divider"
     var dividerDiv1 = document.createElement('div');
     dividerDiv1.className = 'form-divider';
 
-    // Kreiranje slike unutar div elementa sa klasom "form-divider"
     var img1 = document.createElement('img');
     img1.src = '/wp-content/uploads/2024/06/vector_21.webp';
     dividerDiv1.appendChild(img1);
 
-    // Umetanje "form-divider" div elementa između "frm_field_9_container" i "frm_field_11_container"
     firstParallelFieldsDiv.appendChild(dividerDiv1);
 
-    // Premestanje "frm_field_11_container" unutar prvog paralel-fields div elementa
     firstParallelFieldsDiv.appendChild(field11);
 
-    // Kreiranje drugog div elementa sa klasom "paralel-fields"
     var secondParallelFieldsDiv = document.createElement('div');
     secondParallelFieldsDiv.className = 'paralel-fields';
 
-    // Umetanje drugog paralel-fields div elementa ispod prvog paralel-fields div elementa
     firstParallelFieldsDiv.parentNode.insertBefore(secondParallelFieldsDiv, firstParallelFieldsDiv.nextSibling);
 
-    // Pronalazak elemenata sa ID-jevima "frm_field_12_container" i "frm_field_13_container"
     var field12 = document.getElementById('frm_field_12_container');
     var field13 = document.getElementById('frm_field_13_container');
 
-    // Premestanje "frm_field_12_container" unutar drugog paralel-fields div elementa
     secondParallelFieldsDiv.appendChild(field12);
 
-    // Kreiranje drugog div elementa sa klasom "form-divider"
     var dividerDiv2 = document.createElement('div');
     dividerDiv2.className = 'form-divider';
 
-    // Kreiranje slike unutar div elementa sa klasom "form-divider"
     var img2 = document.createElement('img');
     img2.src = '/wp-content/uploads/2024/06/vector_21.webp';
     dividerDiv2.appendChild(img2);
 
-    // Umetanje drugog "form-divider" div elementa između "frm_field_12_container" i "frm_field_13_container"
     secondParallelFieldsDiv.appendChild(dividerDiv2);
 
-    // Premestanje "frm_field_13_container" unutar drugog paralel-fields div elementa
     secondParallelFieldsDiv.appendChild(field13);
 });
     // DODAVANJE ELEMENATA U PLUGIN FORMU END
@@ -153,4 +137,14 @@ if (minuteHome.value === "") {
 }
 });
     // KADA ODABEREMO POLJE DROPWDONU U FORMI MENJA SE FONT END
+
+
+    //POSTAVLJANJE LOGIKE DA KORISNIK NE MOZE DA ODABERE DATUM U PROSLOTSTI NA FORMI START
+   
+
+$( function() {
+    $( "#field_r4twn" ).datepicker({ minDate: 0, maxDate: "+12M" });
+  } );
+
+//POSTAVLJANJE LOGIKE DA KORISNIK NE MOZE DA ODABERE DATUM U PROSLOTSTI NA FORMI END
 </script>
