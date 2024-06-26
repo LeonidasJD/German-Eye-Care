@@ -47,3 +47,52 @@
     width: 673px;
 }
 /* TEXT AND FORM SECTION CSS END */
+
+/* RANDY FREITAG SECTION CSS START */
+.randy-freitag-container{
+    margin-top: 120px;
+}
+.randy-freitag-wrapper{
+    margin: 0px 65px 0px 65px;
+    background-image: url('/wp-content/uploads/2024/06/frame_855-scaled.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.empty-div,.info-div{
+    width: 50%;
+}
+.info-div{
+    padding: 0px 50px 0px 0px;
+
+}
+.randy-freitag-underwrapper{
+    padding: 45px 0px 45px 0px;
+    display: flex;
+}
+.info-div h2{
+    margin:0px 0px 10px 0px;
+    color: var(--bela);
+    font-family: var(--glavni-font);
+    font-size: 48px;
+    font-weight: 400;
+    
+}
+.info-div h3{
+    font-size: 31px;
+    color: var(--bela);
+    font-family: var(--glavni-font);
+    font-weight: 300;
+    margin:0px 0px 30px 0px;
+}
+.info-div p{
+   
+    font-family: var(--glavni-font);
+    color: var(--bela);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128%;
+    
+}
+/* RANDY FREITAG SECTION CSS END */

@@ -13,6 +13,9 @@ get_header();
         </section>
     </div>
  </div>
+  <!-- HERO SECTION END -->
+
+  <!-- TEXT AND FORM SECTION START -->
  <div class="text-and-form-container">
     <div class="container-14">
         <section class="text-and-form-wrapper">
@@ -37,7 +40,27 @@ get_header();
         </section>
     </div>
  </div>
- <!-- HERO SECTION END -->
+<!-- TEXT AND FORM SECTION END -->
+
+
+<!-- RANDY FREITAG SECTION START -->
+ <div class="randy-freitag-container">
+    <div class="container-14">
+        <div class="randy-freitag-wrapper">
+            <div class="randy-freitag-underwrapper">
+                <div class="empty-div"></div>
+                <div class="info-div">
+                <h2>Randy Freitag</h2>
+                <h3> Founder and Director of GermanEyeCare</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Mauris risus adipiscing felis iaculis. Sed massa odio eget nullam ornare felis vitae urna risus. Id suspendisse nullam facilisi sed amet. Cursus sed aliquam gravida in nec id. Interdum nisi at ac eu arcu id viverra pellentesque accumsan. Et commodo enim suspendisse maecenas. Auctor velit diam </p>
+                <p>Lorem ipsum dolor sit amet consectetur. Mauris risus adipiscing felis iaculis. Sed massa odio eget nullam ornare felis vitae urna risus. Id suspendisse nullam facilisi sed amet. Cursus sed aliquam gravida in nec id. Interdum nisi at ac eu arcu id viverra pellentesque accumsan. Et commodo enim suspendisse </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- RANDY FREITAG SECTION END -->
 <?php get_footer(); ?>
 
 
