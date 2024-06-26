@@ -126,3 +126,10 @@
 .form-divider{
     margin-top: 0.7rem;
 }
+
+.ui-datepicker .ui-datepicker-next:before {
+    content: '\2191' !important;
+}
+.ui-datepicker .ui-datepicker-prev:before {
+    content: '\2193' !important;
+}
