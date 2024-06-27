@@ -183,3 +183,19 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// SERVICE CUSTOM POST START
+function services_custom_post_type(){
+	$services_args = array(
+		'public'=> true,
+		'label'=>'Services',
+		'supports'=>array(
+			'title','editor','thumbnail','excerpt',
+		),
+		'rewrite' => array('slug' => 'leistungen', 'with_front' => false),
+		'menu_icon'   => 'dashicons-editor-kitchensink',
+	);
+
+	register_post_type('services',$services_args);
+}
+add_action('init','services_custom_post_type');
+// SERVICE CUSTOM POST END
