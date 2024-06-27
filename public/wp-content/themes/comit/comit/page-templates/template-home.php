@@ -61,11 +61,149 @@ get_header();
     </div>
  </div>
  <!-- RANDY FREITAG SECTION END -->
+
+ <!-- OUR SERVICES SECTION START -->
+  <div class="our-services-container">
+    
+        <div class="our-section-wrapper">
+            <div class="our-section-underwrapper">
+                <h2>Our Services</h2>
+                <p>We Provides always our best services for our clients, <a href="check services"> check services <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a></p>
+
+                <div class="listed-services">
+                    <?php
+                        $args = array(
+                            'post_type' => 'services',
+                            'post_per_page' => -1,
+                        );
+
+                        $services_querry = new WP_Query($args);
+                        
+                        if ( $services_querry->have_posts() ) :
+                            ?>
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <?php
+                                        // Start the Loop
+                                        while ( $services_querry->have_posts() ) : $services_querry->the_post();
+                                        $post_thumbnail_img = get_the_post_thumbnail_url();
+                                        
+                                        ?>
+                                        
+                                            <div class="swiper-slide">
+                                                <div class="single-service-card">
+                                                <div class="service-card-img">
+                                                    <a href="<?php echo get_permalink(); ?>"><img src="<?php echo $post_thumbnail_img; ?>" alt=""></a>
+                                                    </div>
+                                                    <div class="single-service-info">
+                                                    
+                                                    <h2><?php the_title(); ?></h2>
+                                                    <?php the_excerpt(); ?>
+                                                    
+                                                    <div class="single-service-read-more-btn">
+                                                        <a href="<?php echo get_permalink(); ?>">Mehr über</a>
+                                                    </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        <?php
+                                        endwhile;
+                                        ?>
+                                        
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            <?php
+                            endif;
+                            
+                            // Reset Post Data
+                            wp_reset_postdata();
+                    ?>
+               
+                </div>
+            </div>
+
+        </div>
+    
+  </div>
+  <!-- OUR SERVICES SECTION END -->
+
+
+   <!-- BLOG SECTION START -->
+    <div class="blog-home-container">
+        <div class="container-14">
+            <div class="blog-home-wrapper">
+                <div class="blog-home-underwrapper">
+                    <h2>Current specialist articles</h2>
+                    <p>Lorem ipsum dolor sit amet consecteturat augue, <a href="#"> check blog <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a></p>
+                    <div class="blog-home-list">
+                    <?php
+                $post_args= array(
+                'post_type'      => 'post',
+                'posts_per_page' => 4, 
+                );
+                $blog_posts = new WP_Query($post_args);
+                $categories = get_the_category();
+                if($blog_posts->have_posts()){
+                    while($blog_posts->have_posts()){
+                        $blog_posts->the_post();
+                        $categories = get_the_category();
+                        ?>
+                        <a href="<?php echo get_permalink(); ?>">
+                        <div class="single-blog-card">
+                         <div class="post-image">
+                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                            <p class="category-name-banner"><?php if(!empty($categories)){echo esc_html($categories[0]->name);} ?></p>
+                         </div>
+                            <div class="post-info">
+                            <p><img src="/wp-content/uploads/2024/06/clock-icon.webp"> <?php echo get_the_date();?></p>
+                            <h2><?php the_title(); ?></h2>
+                            <h3><?php echo get_the_excerpt();?></h3>
+                            </div>
+                            
+                        </div>
+                        </a>
+                        
+                        <?php
+                    }    
+                }else{
+                    echo "No posts found";
+                }
+                ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BLOG SECTION END -->
 <?php get_footer(); ?>
 
 
 
 <script>
+    // SWIPER LOGIC START
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    loop:true,
+      
+    });
+    // SWIPER LOGIC END
 
     // DODAVANJE ELEMENATA U PLUGIN FORMU START
 
