@@ -1,0 +1,85 @@
+/* HERO SECTION CSS START */
+.services-hero-container{
+    background-image: url('/wp-content/uploads/2024/06/girl-in-green-sweater-scaled.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.services-hero-wrapper{
+    padding: 96px 0px 105px 231px;
+}
+.services-hero-underwrapper h1{
+    margin: 0px;
+    width: 458px;
+    font-size: 40px;
+    font-family: var(--glavni-font);
+    color: var(--tamno-zelena);
+    font-weight: 400;
+    line-height: 128%;
+}
+/* HERO SECTION CSS END */
+
+/* LIST OF SERVICES CSS START */
+.services-container{
+    margin-top: -20px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-radius: 186% / 7%;
+    z-index: 1111;
+    position: relative;
+    background-color: white;
+}
+.all-services-wrapper{
+    padding: 40px 65px 60px 65px;
+}
+.all-services-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+.single-service-card-all{
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.single-service-card-all img{
+    width:100%;
+    border-radius: 8px 8px 0px 0px ;
+}
+.service-card-info-all{
+    padding: 20px 15px 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.service-card-info-all h2{
+    padding-bottom: 12px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(14, 19, 11);
+    text-align: start;
+    margin: 0px;
+}
+.service-card-info-all p{
+    padding-bottom: 30px;
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e130b;
+    text-align: start;
+    margin: 0px;
+}
+.service-button-all{
+    text-align: end;
+    padding: 0;
+    margin-top: auto;
+}
+.service-button-all a{
+    font-family: lato;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #36641c;
+}
+/* LIST OF SERVICES CSS END */
