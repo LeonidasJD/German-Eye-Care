@@ -12,7 +12,7 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="container-footer">
+		<div class="container-footer" <?php if (is_page('vorteile')) { echo 'style="background-color: #F0F0F0;padding-top: 50px"'; } ?>>
 			<div class="container-14">
 				<div class="footer-wrapper">
 					<div class="footer-under-wrapper">
