@@ -1,0 +1,289 @@
+/* HERO SECTION CSS START */
+.vision-hero-container{
+    background-image: url('/wp-content/uploads/2024/06/man-and-woman-scaled.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vision-hero-underwrapper{
+    padding: 138px 0px 155px 0px;
+}
+.vision-hero-underwrapper h1{
+    font-family: var(--glavni-font);
+    color: black;
+    font-weight: 400;
+    font-size: 39px;
+    margin: 0px;
+    text-align: center;
+}
+
+.vision-hero-underwrapper h2{
+    font-family: var(--glavni-font);
+    color: #239318;
+    font-size: 39px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+}
+/* HERO SECTION CSS END */
+
+/* OUR STORY CSS START */
+.our-story-container{
+    border-top: 2px solid #DFDFDF;
+    margin-top: -17px;
+    border-radius: 186% / 7%;
+    background-color: white;
+}
+.our-story-underwrapper{
+    padding: 50px 0px 65px 0px;
+}
+.small-text-wrapper{
+    padding: 0px 207px 25px 207px;
+    display: flex;
+    gap: 10px;
+}
+.small-dot img{
+    width: 8px;
+}
+.small-text p{
+    font-size: 18px;
+    font-family: var(--glavni-font);
+    color: black;
+    font-weight: 400;
+    margin: 3px 0px 0px 0px;
+}
+.heading-and-paragraf{
+    padding: 0px 408px 0px 211px;
+}
+.heading-and-paragraf h1{
+    font-family: var(--glavni-font);
+    color: var(--crno-zelenkasta);
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 400;
+}
+.heading-and-paragraf p{
+    font-family: var(--glavni-font);
+    color: var(--paragraf);
+    font-size: 20px;
+    line-height: 123%;
+}
+.line-divider{
+    margin-top: 30px;
+    padding-top: 2px;
+    background-color: #D4D4D4;
+    position: absolute;
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+.rest-paragraphs-wrapper{
+    margin-top: 97px;
+}
+.check-section-container{
+    background-image: url('/wp-content/uploads/2024/06/girl-with-magnifying-glass1-scaled.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+
+
+.check-section-underwrapper{
+    padding: 41px 208px 64px 208px;
+}
+.check-data{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.check-data h2{
+    font-family: var(--glavni-font);
+    color: var(--bela);
+    font-size: 37px;
+    margin: 0px;
+    font-weight: 400;
+}
+.check-data p{
+    font-family: var(--glavni-font);
+    color: var(--bela);
+    font-weight: 400;
+    line-height: 123%;
+    width: 561px;
+    margin: 0px;
+}
+.check-data a{
+    background-color: var(--bela);
+    padding: 10px 52px;
+    width: 115px;
+    border-radius: 4px;
+    color: var(--accent);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--glavni-font);
+}
+/* OUR STORY CSS END */
+
+/* EXPERTISE SECTION CSS START */
+.expertise-section-container{
+    background-image: url('/wp-content/uploads/2024/06/randy-freitag-scaled.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+@media screen and (max-width:1440px){
+    .expertise-section-container{
+        margin-top: -30px;
+    }
+}
+.expertise-section-underwrapper{
+    padding: 193px 0px 150px 0px;
+}
+.expertise-section-underwrapper h2{
+
+    margin: 0px;
+    font-family: var(--glavni-font);
+    color: var(--bela);
+    font-weight: 400;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.expertise-section-underwrapper img{
+    width: 126px;
+}
+/* EXPERTISE SECTION CSS END */
+
+/* OUR PARTNERS SECTION CSS START */
+.our-partners-container{
+    background-color: #F0F0F0;
+}
+.our-partners-wrapper{
+    padding: 86px 0px 50px 0px;
+}
+.heading-and-text{
+    padding: 0px 208px 0px 208px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.heading-and-text h2{
+    font-size: 30px;
+    font-family: var(--glavni-font);
+    font-weight: 400;
+    color: var(--crno-zelenkasta);
+    margin: 0px;
+}
+.heading-and-text p{
+    font-family: var(--glavni-font);
+    font-size: 18px;
+    line-height: 158%;
+    color: var(--paragraf);
+    margin: 0px;
+    width: 736px;
+}
+.two-banners-wrapper{
+    margin-top: 60px;
+    padding: 0px 169px 0px 169px;
+    display: flex;
+    flex-direction: column;
+}
+.main-banners{
+    display: flex;
+    position: relative;
+}
+.single-banner{
+    width: 50%;
+    padding: 28px 41px;
+    background-color: white;
+}
+.banner-with-border{
+    border-right: 1px solid var(--link-zelena);
+    border-radius: 10px 0px 0px 10px;
+}
+.banner-without-border{
+    border-radius: 0px 10px 10px 0px;
+}
+.single-banner h2{
+    margin: 0px;
+    font-family: var(--glavni-font);
+    color: var(--crno-zelenkasta);
+    font-size: 22px;
+    font-weight: 400;
+}
+.single-banner p{
+    font-family: var(--glavni-font);
+    color: black;
+    font-size: 16px;
+    line-height: 158%;
+    font-weight: 400;
+}
+.single-banner img{
+    width: 265px;
+    margin-top: 20px;
+}
+.under-black-banner-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -5px;
+}
+.under-black-banner{
+    background-color: var(--crno-zelenkasta);
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    padding: 28px 28px;
+    width: 680px;
+}
+.under-black-banner-paragraph p{
+    font-family: var(--glavni-font);
+    color: white;
+    font-size: 16px;
+    line-height: 138%;
+    font-weight: 400;
+    margin: 0px;
+    margin-top: -5px;
+}
+.under-black-banner-paragraph p span{
+    color:#6BC462;
+    text-decoration: underline;
+}
+.under-black-baner-img img{
+    width: 48px;
+}
+/* OUR PARTNERS SECTION CSS END */
+
+
+/* HELTHCARE PARTNERS SECTION CSS START */
+.helthcare-container{
+    padding: 70px 0px 98px 0px;
+}
+
+.helthcare-underwrapper h2{
+    text-align: center;
+    font-family: var(--glavni-font);
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0px;
+}
+.marquee-content{
+    margin-top: 50px;
+}
+.marquee-content marquee{
+    color: var(--accent);
+    font-family: var(--glavni-font);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.marquee-content marquee img{
+    margin: 0px 15px 0px 15px;
+    width: 8px;
+}
+/* HELTHCARE PARTNERS SECTION CSS END */
