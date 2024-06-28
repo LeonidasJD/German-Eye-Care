@@ -4,6 +4,9 @@
 @import url(./schedule-appointment-form.css);
 @import url(./vision.css);
 @import url(./services.css);
+@import url(./blog.css);
+@import url(./latest-news-temp.css);
+@import url(./contact.css);
 :root{
     --bela:#FFFFFF;
     --svetlo-zelena:#61C555;
