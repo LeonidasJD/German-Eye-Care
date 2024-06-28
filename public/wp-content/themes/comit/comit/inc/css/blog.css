@@ -1,0 +1,214 @@
+/* HERO AND SEARCH BAR CSS START */
+.blog-section-container{
+    background-image: url('/wp-content/uploads/2024/06/magnifying-glass-scaled.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blog-section-wrapper{
+    padding: 105px 65px 97px 65px;
+    
+}
+.blog-section-underwrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.blog-section-underwrapper h1{
+    font-family: var(--glavni-font);
+    color: var(--text);
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+.blog-section-underwrapper p{
+    font-family: var(--glavni-font);
+    color: var(--paragraf);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+.search-bar{
+    width: 380px;
+}
+div.asl_r.vertical{
+    background-color: white !important;
+}
+.resdrg{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px 10px!important;
+
+}
+.asl_content{
+    padding: 5px 5px 15px 5px!important;
+    border-bottom: 1px solid black!important;
+    border-radius: 6px!important;
+
+}
+.asl_content:hover{
+    background-color: #EEEEEE!important;
+}
+.asl_content h3 a{
+    font-family: var(--glavni-font) !important;
+    color: var(--crno-zelenkasta)!important;
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+.asl_desc{
+    font-family: var(--glavni-font)!important;
+    color: var(--paragraf)!important;
+    font-size: 14px!important;
+    line-height: 24px!important;
+}
+div.asl_r.asl_w.vertical .results .item::after{
+    background: transparent!important;
+}
+/* HERO AND SEARCH BAR CSS END */
+
+/* ALL BLOGS CSS START */
+.all-blog-wrapper{
+    padding: 40px 65px 97px 65px;
+}
+.all-blog-underwrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+.blog-categories ul{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+}
+.blog-categories ul li a{
+    background-color: var(--accent);
+    padding: 8px 16px;
+    border-radius: 42px;
+    color: var(--bela);
+    font-family: var(--glavni-font);
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: -4px 5px 10px 2px #E8EAE6;
+}
+.current-category{
+    background-color: white!important;
+    color: var(--text)!important;
+    border: 1px solid var(--text)!important;
+}
+.list-of-blogs-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+.single-blog-card-all{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.post-image-all img{
+    width: 200px;
+    height: 182px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.post-info-all{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.post-info-all img{
+    width: 12px;
+    margin-right: 10px;
+}
+.post-info-all p{
+    font-family: var(--glavni-font);
+    color: #353535;
+    font-size: 14px;
+    margin: 0px;
+}
+.post-info-all h2{
+    font-family: var(--glavni-font);
+    color: var(--crno-zelenkasta);
+    font-size: 18px;
+    margin: 0px;
+}
+.post-info-all h3{
+    font-family: var(--glavni-font);
+    color: var(--paragraf);
+    font-weight: 400;
+    margin: 0px;
+    font-size: 14px;
+}
+.post-info-all .read-more-blog-btn{
+    display: none;
+}
+.pagination-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #F5F5F5;
+    width: max-content;
+    gap: 30px;
+    padding: 20px 25px;
+    border-radius: 26px;
+    box-shadow: -5px 6px 13px 0px #EDF1EB;
+
+}
+
+.next img,.prev img{
+    width: 8px;
+    height: 16px;
+    margin-top: 3px;
+}
+.page-numbers{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--glavni-font);
+    color: #656565;
+}
+.page-numbers.current{
+    background-color: black;
+    color: var(--bela);
+    padding: 7px 11px;
+    border-radius: 50px;
+}
+.newest-post{
+    display: flex;
+    gap: 17px;
+    align-items: stretch;
+}
+.newest-post .post-image-all img{
+    width: 334px;
+    height: 303px;
+    border-radius: 8px;
+}
+.newest-post .post-info-all {
+    background-color: #F5F5F5;
+    padding: 17px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+}
+.newest-post .post-info-all h2{
+    font-size: 28px;
+}
+.newest-post .post-info-all .read-more-blog-btn{
+    display: flex;
+    flex-grow: 1;
+}
+.newest-post .post-info-all .read-more-blog-btn p{
+    display: flex;
+    align-items: flex-end;
+    text-decoration: underline;
+    color: #3C582C;
+}
+
+/* ALL BLOGS CSS END */
