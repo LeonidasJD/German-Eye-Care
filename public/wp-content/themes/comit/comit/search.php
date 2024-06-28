@@ -1,53 +1,108 @@
-<?php
-/**
- * The template for displaying search results pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
- * @package comit
- */
+<?php get_header(); ?>
 
-get_header();
-?>
+<div class="blog-section-container">
+    <div class="container-14">
+        <div class="blog-section-wrapper">
+            <div class="blog-section-underwrapper">
+                <h1>Search results for "<?php echo get_search_query(); ?>"</h1>
+				<div class="search-bar"><?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?></div>
+                
+            </div>
+        </div>
+    </div>
+</div>
 
-	<main id="primary" class="site-main">
+<div class="all-blog-container">
+    <div class="container-14">
+        <div class="all-blog-wrapper">
+            <div class="all-blog-underwrapper">
 
-		<?php if ( have_posts() ) : ?>
+                <div class="blogs-and-categories-wrapper">
+                    <div class="blog-categories">
+                        <?php
+                        $category_args = array(
+                            'exclude' => get_cat_ID('Uncategorized'),
+                        );
 
-			<header class="page-header">
-				<h1 class="page-title">
-					<?php
-					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'comit' ), '<span>' . get_search_query() . '</span>' );
-					?>
-				</h1>
-			</header><!-- .page-header -->
+                        $categories = get_categories($category_args);
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+                        if (!empty($categories)) {
+                            echo '<ul>';
+                            foreach ($categories as $category) {
+                                echo '<li><a href="' . esc_url(get_category_link($category->term_id)) . '" class="' . (is_category($category->term_id) ? 'current-category' : '') . '">' . $category->name . '</a></li>';
+                            }
+                            echo '</ul>';
+                        }
+                        ?>
+                    </div>
+                    <div class="list-of-blogs-wrapper">
+                        <?php
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                        $search_query = get_search_query();
 
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'search' );
+                        $search_results = new WP_Query(array(
+                            'post_type' => 'post',
+                            'posts_per_page' => 5,
+                            'orderby' => 'date',
+                            'paged' => $paged,
+                            's' => $search_query,
+                        ));
 
-			endwhile;
+                        if ($search_results->have_posts()) {
+                            while ($search_results->have_posts()) {
+                                $search_results->the_post();
+                                $blog_categories = get_the_category();
+                                $post_id = get_the_ID();
+                                ?>
+                                <a href="<?php echo get_permalink(); ?>">
+                                    <div class="single-blog-card-all">
+                                        <div class="post-image-all">
+                                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                                            <p class="category-name-banner"><?php if (!empty($blog_categories)) {
+                                                    echo esc_html($blog_categories[1]->name); 
+                                                } ?></p>
+                                        </div>
 
-			the_posts_navigation();
+                                        <div class="post-info-all">
+                                            <p><img src="/wp-content/uploads/2024/06/clock-icon.webp"> <?php echo get_the_date(); ?></p>
+                                            <h2><?php the_title(); ?></h2>
+                                            <h3><?php echo get_the_excerpt(); ?></h3>
+                                            <div class="read-more-blog-btn"><p>Read more</p></div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <?php
+                            }
 
-		else :
+                            // Paginacija za rezultate pretrage
+                            if ($search_results->max_num_pages > 1) {
+                                echo '<div class="pagination-wrapper">';
+                                echo '<div class="pagination">';
+                                echo paginate_links(array(
+                                    'total' => $search_results->max_num_pages,
+                                    'current' => max(1, $paged),
+                                    'prev_text' => '<img src="/wp-content/uploads/2024/06/right-green-arrow.webp">',
+                                    'next_text' => '<img src="/wp-content/uploads/2024/06/left-green-arrow.webp">',
+                                    'show_all' => true,
+                                ));
+                                echo '</div>';
+                                echo '</div>';
+                            }
 
-			get_template_part( 'template-parts/content', 'none' );
+                            wp_reset_postdata();
+                        } else {
+                            echo "No posts found";
+                        }
+                        ?>
+                    </div>
 
-		endif;
-		?>
+                </div>
+                <div class="latest-news-and-banner-wrapper">
+				<?php get_template_part('/template-parts/latest-news','latest-news'); ?>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
 
-	</main><!-- #main -->
-
-<?php
-get_sidebar();
-get_footer();
+<?php get_footer(); ?>
