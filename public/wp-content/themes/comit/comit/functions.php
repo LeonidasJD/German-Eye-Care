@@ -141,11 +141,14 @@ add_action( 'widgets_init', 'comit_widgets_init' );
 function comit_scripts() {
 	wp_enqueue_style( 'comit-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'global-style', get_template_directory_uri() . '/inc/css/global-style.css' );
-	wp_enqueue_style( 'swiper-lib-css', get_template_directory_uri() . '/swiper-11.1.4/package/swiper-bundle.min.css' );
+	wp_enqueue_style( 'swiper-lib-css', get_template_directory_uri() . '/libs/swiper-11.1.4/package/swiper-bundle.min.css' );
+	wp_enqueue_style( 'leaflet-lib-css', get_template_directory_uri() . '/libs/leaflet/leaflet.css' );
+
 	wp_style_add_data( 'comit-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'comit-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'swiper-lib-js', get_template_directory_uri() . '/swiper-11.1.4/package/swiper-bundle.min.js');
+	wp_enqueue_script( 'swiper-lib-js', get_template_directory_uri() . '/libs/swiper-11.1.4/package/swiper-bundle.min.js');
+	wp_enqueue_script( 'leaflet-lib-js', get_template_directory_uri() . '/libs/leaflet/leaflet.js');
 
 	wp_deregister_script('jquery');
     wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', array(), null, true);
