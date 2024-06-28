@@ -160,7 +160,7 @@ get_header();
                         <div class="single-blog-card">
                          <div class="post-image">
                             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
-                            <p class="category-name-banner"><?php if(!empty($categories)){echo esc_html($categories[0]->name);} ?></p>
+                            <p class="category-name-banner"><?php if(!empty($categories)){echo esc_html($categories[1]->name);} ?></p>
                          </div>
                             <div class="post-info">
                             <p><img src="/wp-content/uploads/2024/06/clock-icon.webp"> <?php echo get_the_date();?></p>
