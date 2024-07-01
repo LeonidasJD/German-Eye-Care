@@ -55,6 +55,14 @@
 		</div>
 		
 	</header><!-- #masthead -->
-		</div>
-	</div>
 	<!-- DESKTOP HEADER END -->
+
+
+	 <!-- HEADER MOBILE START -->
+	 <header class="mobile-header"> <p>mobile header placeholder</p></header>
+	 </div>
+	  <!-- HEADER MOBILE END -->
+		</div>
+			
+	</div>
+	
