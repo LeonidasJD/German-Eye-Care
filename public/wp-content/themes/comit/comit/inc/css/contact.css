@@ -22,9 +22,16 @@
     margin-top: 45px;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
-.map-section,.form-section{
+.shop-section,.form-section{
     width: 50%;
+}
+.shop-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .shop-wrapper{
     background-color: white;
@@ -68,6 +75,23 @@
     color: black;
     margin: 0px;
 }
+.info-button-app{
+    margin-top: 40px;
+    background-color: #36641C;
+    border-radius: 6px;
+    text-align: center;
+    max-width: 12rem;
+    padding: 13px 50px;
+    box-shadow: -5px 4px 11px 3px #e1e7de;
+}
+.info-button-app a{
+    font-family: var(--glavni-font);
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    gap: 15px;
+}
 /* MAP CSS START */
 .map-section{
     display: flex;
@@ -77,11 +101,13 @@
 .map-section-wrapper{
     border-top: 2px solid #76BA51;
 }
-
+.leaflet-map-wrapper{
+    padding-bottom: 60px;
+}
 #my-map{
     width:100%;
      height:30rem;
-     border-radius: 6px;
+   
      border: 1px solid #4C922D;
 }
 .leaflet-bottom.leaflet-right{

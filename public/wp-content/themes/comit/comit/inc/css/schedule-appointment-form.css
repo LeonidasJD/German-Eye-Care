@@ -6,6 +6,8 @@
     border-radius: 12px;
     padding: 32px 50px 0px 50px;
     box-shadow: -9px 6px 16px 3px #F8F8F7;
+    height: 88%;
+    
 }
 .form-wrapper h2{
     text-align: center;
@@ -19,15 +21,19 @@
     color: var(--crno-zelenkasta);
     margin-bottom: 42px;
 }
-.form-wrapper .frm_form_fields  label{
+/* .form-wrapper .frm_form_fields  label{
     display: none!important;
-}
+} */
+ #field_wzq9m_label,#field_wh67d_label,#field_rvw95_label,#field_coxqx_label,#field_3cari_label,#field_r4twn_label,#field_bv52x_label,#field_69k1z_label
+ ,#field_tiuhm_label,#field_18euj_label,#field_uw1qu_label,#field_8ldlz_label,#field_6tvru_label{
+    display: none;
+ }
 .form-wrapper .frm_form_fields button{
     font-family: var(--glavni-font);
     font-weight: 400;
     font-size: 19px;
     color: #fff;
-    background-color: #4C922D;
+    background-color: #36641C;
     border: none;
     border-radius: 7px;
     padding: 15px 50px;
@@ -38,7 +44,7 @@
     margin-top: 30px;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .1);
     cursor: pointer;
-    border: 1px solid #4C922D;
+    border: 1px solid #36641C;
 }
 .form-wrapper .frm_form_fields input{
     border-top: 0 !important;
@@ -53,7 +59,28 @@
     color: var(--crno-zelenkasta)!important;
     opacity: 90%!important;
 }
+.form-wrapper .frm_form_fields textarea{
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #5B9356 !important;
+    border-radius: 0px;
+    box-shadow: none !important;
+    padding: 0px;
+    font-family: var(--glavni-font);
+    font-weight: bold !important;
+    color: var(--crno-zelenkasta)!important;
+    opacity: 90%!important;
+    resize: none;
+}
 .form-wrapper .frm_form_fields input::placeholder{
+    font-family: var(--glavni-font);
+    font-size: 16px!important;
+    font-weight: bold!important;
+    color: rgba(14,19,11,0.6) !important;
+    
+}
+.form-wrapper .frm_form_fields textarea::placeholder{
     font-family: var(--glavni-font);
     font-size: 16px!important;
     font-weight: bold!important;
@@ -136,3 +163,34 @@
 .frm_error_style{
     display: none;
 }
+/* CONTACT FORM DIFERENCES START */
+#frm_field_26_container{
+    display: none;
+}
+.contact-form{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+.contact-form button{
+    width: 186px!important;
+    font-size: 16px!important;
+    padding: 13px 26px!important;
+}
+#field_18euj-otext{
+    display: none;
+}
+#frm_checkbox_27-0 label{
+    font-family: var(--glavni-font);
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-wrapper .frm_checkbox input{
+    border: 1px solid #4C922D!important;
+    border-radius: 3px!important;
+}
+.contact-form .frm_style_formidable-style.with_frm_style .form-field{
+    margin-bottom: 50px;
+}
+/* CONTACT FORM DIFERENCES END */
