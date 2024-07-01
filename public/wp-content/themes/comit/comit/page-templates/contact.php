@@ -9,7 +9,7 @@ get_header();
                 <h1>Kontakt</h1>
                 <p>Use our contact form, write an email or call the store directly:</p>
                 <div class="map-and-form-wrapper">
-                    <div class="map-section">
+                    <div class="shop-section">
                         <div class="shop-wrapper">
                         <h2>Standort: German Eye Care Neuenburg</h2>
                         <ul>
@@ -17,6 +17,12 @@ get_header();
                         <li><img src="/wp-content/uploads/2024/06/letter-icon.webp" ><p><a href="mailto:info@germaneyecare.de">info@germaneyecare.de</a></p></li>
                         <li><img src="/wp-content/uploads/2024/06/phone-icon.webp" ><p><a href="tel:07631-73606">07631-73606</a></p></li>
                     </ul>
+                    <div class="info-button-app">
+                        <a href="https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start">Book an appointment <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.79395 5.48047V11.8098H15.1233" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.79395 19.5C14.7645 19.5 18.7939 15.4705 18.7939 10.5C18.7939 5.52943 14.7645 1.5 9.79395 1.5C4.82338 1.5 0.793945 5.52943 0.793945 10.5C0.793945 15.4705 4.82338 19.5 9.79395 19.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+                    </div>
                         </div>
                         <div class="shop-wrapper">
                         <h2>Standort: German Eye Care Neuenburg</h2>
@@ -25,19 +31,34 @@ get_header();
                         <li><img src="/wp-content/uploads/2024/06/letter-icon.webp" ><p><a href="mailto:info@germaneyecare.de">info@germaneyecare.de</a></p></li>
                         <li><img src="/wp-content/uploads/2024/06/phone-icon.webp" ><p><a href="tel:07631-73606">07631-73606</a></p></li>
                     </ul>
+                    <div class="info-button-app">
+                    <a href="https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start">Book an appointment <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.79395 5.48047V11.8098H15.1233" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.79395 19.5C14.7645 19.5 18.7939 15.4705 18.7939 10.5C18.7939 5.52943 14.7645 1.5 9.79395 1.5C4.82338 1.5 0.793945 5.52943 0.793945 10.5C0.793945 15.4705 4.82338 19.5 9.79395 19.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+                    </div>
+                    
                         </div>
-                        <div class="map-wrapper">
+                        
+                    
+                    </div>
+                    <div class="form-section">
+                        <div class="form-wrapper contact-form">
+                        <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3 ) ); ?>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="leaflet-map-wrapper">
+                <div class="map-wrapper">
                         <div id ="my-map">
                         <div id="scroll-overlay">Press Ctrl + scroll to zoom</div>
                         </div>
                         </div>
-                    
-                    </div>
-                    <div class="form-section"><h2>FORM PLACEHOLDER</h2></div>
                 </div>
-            </div>
-        </div>
-    </div>
 </div>
 <?php
 get_footer();
@@ -165,4 +186,26 @@ var mapOptions = {
             map.scrollWheelZoom.enable();
         }
     // SKRIPTA ZA MAPU END
+
+    // KADA ODABEREMO SELECT POLJE MENJA SE FONT START
+    const dropdownStandortContact = document.getElementById('field_18euj');
+
+    dropdownStandortContact.addEventListener('change', function() {
+  if (dropdownStandortContact.value === "") {
+    dropdownStandortContact.classList.remove('change-select');
+  } else {
+    dropdownStandortContact.classList.add('change-select');
+  }
+});
+
+const dropdownServiceContact = document.getElementById('field_6tvru');
+
+dropdownServiceContact.addEventListener('change', function() {
+if (dropdownServiceContact.value === "") {
+    dropdownServiceContact.classList.remove('change-select');
+} else {
+    dropdownServiceContact.classList.add('change-select');
+}
+});
+    // KADA ODABEREMO SELECT POLJE MENJA SE FONT END
 </script>
