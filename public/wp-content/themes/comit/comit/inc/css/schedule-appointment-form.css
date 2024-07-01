@@ -7,6 +7,7 @@
     padding: 32px 50px 0px 50px;
     box-shadow: -9px 6px 16px 3px #F8F8F7;
     height: 88%;
+    background-color: white;
     
 }
 .form-wrapper h2{
@@ -29,6 +30,7 @@
     display: none;
  }
 .form-wrapper .frm_form_fields button{
+
     font-family: var(--glavni-font);
     font-weight: 400;
     font-size: 19px;

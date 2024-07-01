@@ -7,6 +7,8 @@
 @import url(./blog.css);
 @import url(./latest-news-temp.css);
 @import url(./contact.css);
+@import url(./single-service.css);
+@import url(./hero-banner-tem-part.css);
 :root{
     --bela:#FFFFFF;
     --svetlo-zelena:#61C555;
