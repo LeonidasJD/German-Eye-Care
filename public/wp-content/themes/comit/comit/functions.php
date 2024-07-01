@@ -194,7 +194,7 @@ function services_custom_post_type(){
 		'supports'=>array(
 			'title','editor','thumbnail','excerpt',
 		),
-		'rewrite' => array('slug' => 'leistungen', 'with_front' => false),
+		'rewrite' => array('slug' => 'vorteile', 'with_front' => false),
 		'menu_icon'   => 'dashicons-editor-kitchensink',
 	);
 
