@@ -11,7 +11,15 @@ get_header();
                 <div class="map-and-form-wrapper">
                     <div class="map-section">
                         <div class="shop-wrapper">
-                        <h2>Standort: Hoffmannoptik Neuenburg</h2>
+                        <h2>Standort: German Eye Care Neuenburg</h2>
+                        <ul>
+                        <li><img src="/wp-content/uploads/2024/06/map-pin-icon1.webp" ><p>Rebstraße 4, 79395 Neuenburg am Rhein</p></li>
+                        <li><img src="/wp-content/uploads/2024/06/letter-icon.webp" ><p><a href="mailto:info@germaneyecare.de">info@germaneyecare.de</a></p></li>
+                        <li><img src="/wp-content/uploads/2024/06/phone-icon.webp" ><p><a href="tel:07631-73606">07631-73606</a></p></li>
+                    </ul>
+                        </div>
+                        <div class="shop-wrapper">
+                        <h2>Standort: German Eye Care Neuenburg</h2>
                         <ul>
                         <li><img src="/wp-content/uploads/2024/06/map-pin-icon1.webp" ><p>Rebstraße 4, 79395 Neuenburg am Rhein</p></li>
                         <li><img src="/wp-content/uploads/2024/06/letter-icon.webp" ><p><a href="mailto:info@germaneyecare.de">info@germaneyecare.de</a></p></li>
