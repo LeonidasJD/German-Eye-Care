@@ -109,6 +109,12 @@
 .our-section-underwrapper{
     text-align: center;
 }
+.our-section-underwrapper .text-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 .our-section-underwrapper h2{
     margin: 0px;
     font-family: var(--glavni-font);
@@ -190,6 +196,9 @@ border-radius: 8px 8px 0px 0px;
     color: var(--link-zelena);
     font-size: 14px;
     font-weight: 400;
+}
+.listed-services-mobile{
+    display: none;
 }
 /* OUR SERVICES SECTION CSS END */
 
@@ -350,3 +359,111 @@ border-radius: 8px 8px 0px 0px;
 
 /* BLOG SECTION CSS END */
 
+
+/* HERO SECTION RESPONSIVE CSS START */
+@media screen and (max-width:768px){
+    .hero-container{
+        margin: 0px 10px 0px 10px;
+    }
+    .hero-section-wrapper{
+        background-image: url('/wp-content/uploads/2024/07/woman-on-examination.webp');
+        margin: 0px;
+        border-radius: 0px 0px 12px 12px;
+    }
+    .hero-section-underwrapper{
+        padding: 67px 0px 390px 0px;
+    }
+    .hero-section-underwrapper h1{
+        font-size: 34px;
+        text-align: center;
+    }
+}
+/*HERO SECTION RESPONSIVE CSS END */
+
+/* TEXT AND FORM SECTION RESPONSIVE CSS START */
+@media screen and (max-width:768px){
+    .text-and-form-wrapper{
+        margin: 0px 10px 0px 10px;
+    }
+    .text-and-form-underwrapper{
+        flex-direction: column;
+        gap:30px
+    }
+    .main-text h2{
+        font-size: 24px;
+        margin: 24px 0px 20px 0px;
+    }
+    .main-text p{
+        width: 100%;
+    }
+    .form-wrapper{
+        padding: 35px 15px 0px 15px!important;
+    }
+}
+/* TEXT AND FORM SECTION RESPONSIVE CSS END */
+
+/* RANDY FREITAG SECTION RESPONSIVE CSS START */
+@media screen and (max-width: 768px) {
+    .randy-freitag-container{
+        margin: 50px 10px 0px 10px;
+    }
+    .randy-freitag-wrapper{
+        margin: 0px;
+        background-image: url('/wp-content/uploads/2024/07/randy-freitag-frame.webp');
+        background-position: top;
+    }
+    .randy-freitag-underwrapper{
+        padding:0px;
+        flex-direction: column;
+        padding: 400px 10px 20px 10px;
+    }
+    .empty-div, .info-div{
+        width: 100%;
+    }
+    .info-div{
+        padding: 0px;
+    }
+    .info-div h2{
+        font-size: 36px;
+    }
+    .info-div h3{
+        font-size: 25px;
+    }
+}
+/* RANDY FREITAG SECTION RESPONSIVE CSS END */
+
+/* OUR SERVICES SECTION RESPONSIVE CSS START */
+@media screen and (max-width: 768px) {
+    
+.our-services-container{
+    margin: 85px 0px 0px 0px;
+}
+.our-section-underwrapper h2{
+    font-size: 28px;
+}
+.our-section-underwrapper p a{
+    margin-top: 15px;
+}
+.our-section-underwrapper .text-wrapper{
+    flex-direction: column;
+}
+.listed-services{
+    display: none;
+}
+.listed-services-mobile{
+    display: block;
+}
+}
+/* OUR SERVICES SECTION RESPONSIVE CSS END */
+
+/* BLOG SECTION RESPONSIVE CSS START */
+.blog-home-container{
+    margin: 0px 10px 0px 10px;
+}
+.blog-home-container{
+    padding: 70px 0px 80px 0px;
+}
+.blog-home-wrapper{
+    margin: 0px;
+}
+/* BLOG SECTION RESPONSIVE CSS END */

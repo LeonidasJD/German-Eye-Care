@@ -66,4 +66,9 @@ a{
             }
             
         }
+@media screen and (max-width:768px){
+    .container-14{
+    width: 100%;
+        }
+}
 
