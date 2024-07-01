@@ -202,13 +202,13 @@ $( function() {
     dropdownSingleService.classList.add('change-select');
   }
 });
-const dropdownSingleStandort = document.getElementById('field_3cari');
+const dropdownSingleServiceStandort = document.getElementById('field_3cari');
 
-dropdownSingleStandort.addEventListener('change', function() {
-if (dropdownSingleStandort.value === "") {
-    dropdownSingleStandort.classList.remove('change-select');
+dropdownSingleServiceStandort.addEventListener('change', function() {
+if (dropdownSingleServiceStandort.value === "") {
+    dropdownSingleServiceStandort.classList.remove('change-select');
 } else {
-    dropdownSingleStandort.classList.add('change-select');
+    dropdownSingleServiceStandort.classList.add('change-select');
 }
 });
 const dropdownSingleStandort = document.getElementById('field_3cari');
