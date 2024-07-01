@@ -68,7 +68,10 @@ get_header();
         <div class="our-section-wrapper">
             <div class="our-section-underwrapper">
                 <h2>Our Services</h2>
-                <p>We Provides always our best services for our clients, <a href="check services"> check services <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a></p>
+                <div class="text-wrapper">
+                    <p>We Provides always our best services for our clients,</p> <a href="check services"> check services <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a>
+                </div>
+                
 
                 <div class="listed-services">
                     <?php
@@ -127,6 +130,10 @@ get_header();
                             wp_reset_postdata();
                     ?>
                
+                </div>
+                <div class="listed-services-mobile">
+                    <p>list of service placeholder</p>
+                    
                 </div>
             </div>
 
