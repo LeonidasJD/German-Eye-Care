@@ -482,7 +482,7 @@ border-radius: 8px 8px 0px 0px;
         margin: 0px;
     } 
     .blog-home-wrapper h2{
-        font-size: 18px;
+        font-size: 28px;
 
     }
     .blog-home-wrapper p{
@@ -508,6 +508,9 @@ border-radius: 8px 8px 0px 0px;
     align-items: flex-start;
     justify-content: center;
     gap: 10px;
+    }
+    .post-info h2{
+        font-size: 18px;
     }
 
 }
