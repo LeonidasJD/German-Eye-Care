@@ -129,10 +129,45 @@ get_header();
                             // Reset Post Data
                             wp_reset_postdata();
                     ?>
-               
                 </div>
                 <div class="listed-services-mobile">
-                    <p>list of service placeholder</p>
+                    <?php
+                    $mobile_services_args = array(
+                        'post_type' => 'services',
+                        'post_per_page' => 4,
+                    );
+
+                    $mobile_service_query = new WP_Query($mobile_services_args);
+
+                    if( $mobile_service_query->have_posts()):
+                        while($mobile_service_query->have_posts()):
+                            $mobile_service_query->the_post();
+
+
+                            ?> 
+                            <div class="single-service-card">
+                                                <div class="service-card-img">
+                                                    <a href="<?php echo get_permalink(); ?>"><img src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
+                                                    </div>
+                                                    <div class="single-service-info">
+                                                    
+                                                    <h2><?php the_title(); ?></h2>
+                                                    <?php the_excerpt(); ?>
+                                                    
+                                                    <div class="single-service-read-more-btn">
+                                                        <a href="<?php echo get_permalink(); ?>">Mehr über</a>
+                                                    </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    
+                                                
+                                                </div>
+                            <?php
+
+                        endwhile;
+                    endif;
+                    ?>
                     
                 </div>
             </div>
