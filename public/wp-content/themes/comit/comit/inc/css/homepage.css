@@ -457,13 +457,37 @@ border-radius: 8px 8px 0px 0px;
 /* OUR SERVICES SECTION RESPONSIVE CSS END */
 
 /* BLOG SECTION RESPONSIVE CSS START */
-.blog-home-container{
-    margin: 0px 10px 0px 10px;
+@media screen and (max-width: 768px) {
+    .blog-home-container{
+        margin: 0px 10px 0px 10px;
+    }
+    .blog-home-container{
+        padding: 70px 0px 80px 0px;
+    }
+    .blog-home-wrapper{
+        margin: 0px;
+    } 
+    .blog-home-wrapper h2{
+        font-size: 28px;
+
+    }
+    .blog-home-wrapper p{
+        display: flex;
+    flex-direction: column;
+    gap: 16px;
+    }
+    .blog-home-list{
+        margin-top: 33px;
+        display: flex;
+        flex-direction: column;
+    }
+    .single-blog-card{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .post-image img{
+        width: 100%;
+    }
 }
-.blog-home-container{
-    padding: 70px 0px 80px 0px;
-}
-.blog-home-wrapper{
-    margin: 0px;
-}
+
 /* BLOG SECTION RESPONSIVE CSS END */
