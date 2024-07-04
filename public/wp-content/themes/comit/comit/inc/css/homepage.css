@@ -468,7 +468,7 @@ border-radius: 8px 8px 0px 0px;
         margin: 0px;
     } 
     .blog-home-wrapper h2{
-        font-size: 28px;
+        font-size: 18px;
 
     }
     .blog-home-wrapper p{
@@ -487,6 +487,13 @@ border-radius: 8px 8px 0px 0px;
     }
     .post-image img{
         width: 100%;
+    }
+    .post-info p{
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
     }
 }
 

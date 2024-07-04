@@ -23,6 +23,7 @@
 				<div class="footer-wrapper">
 					<div class="footer-under-wrapper">
 						<div class="footer-nav-wrapper">
+						<div class="logo-div-up"><img src="/wp-content/uploads/2024/06/vector-1.webp" ></div>
 						<div class="footer-nav">
 							<h2 class="footer-nav-title">Menü</h2>
 							<?php wp_nav_menu(array(
@@ -60,7 +61,7 @@
 									<a href="#">Privacy & Policy </a>
 								</div>
 							</div>
-							<div class="logo-div"><img src="/wp-content/uploads/2024/06/vector-1.webp" ></div>
+							<div class="logo-div-down"><img src="/wp-content/uploads/2024/06/vector-1.webp" ></div>
 						</div>
 					</div>
 				</div>
