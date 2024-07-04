@@ -59,7 +59,7 @@
     .site-header{
         display: block;
     }
-    .mobile-header{
+    .mobile-heahder-wrapper{
         display: none;
     }
 }
@@ -67,7 +67,7 @@
     .site-header{
         display: none;
     }
-    .mobile-header{
+    .mobile-heahder-wrapper{
         display: block;
     }
 }
