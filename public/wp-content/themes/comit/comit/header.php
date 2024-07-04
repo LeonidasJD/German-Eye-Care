@@ -59,7 +59,58 @@
 
 
 	 <!-- HEADER MOBILE START -->
-	 <header class="mobile-header"> <p>mobile header placeholder</p></header>
+	 <!-- MOBILE HEADER START -->
+<div class="mobile-heahder-wrapper">
+		<header>
+			<div class="header-items-wrapper">
+			<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="mobile-logo" src="/wp-content/uploads/2024/06/logotype-2.webp" ></a></div>
+			<div class="btn-and-hamburger">
+			<div class="header-contact-button"><a href="/kontakt/">Kontakt</a></div>
+			<div id="open-dropdown-menu" class="hamburger-wrapper"><img class="hamburger-icon" src="/wp-content/uploads/2024/06/Frame-876.webp" ></div>
+			</div>
+			
+			</div>
+			
+		</header>
+</div>
+
+<section id="under-wrapper" class="under-menu-wrapper">
+	<div class="close-btn-logo">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="dropdown-logo" src="/wp-content/uploads/2024/06/layer_1_2x.webp" alt=""></a>
+		<button id="close-mobile-menu-btn"><img src="/wp-content/uploads/2024/06/vector_2x.webp" alt=""></button>
+	</div>
+<div><?php 
+    wp_nav_menu( 
+        array( 
+            'theme_location' => 'mobile-menu'
+        ) 
+    ); 
+?></div>
+<div class="book-now-section">
+<div class="book-now-section1">
+	<div class="shop-image-mob">
+		
+	</div>
+	<div class="shop-wrapper-mob">
+	<p>Geschäft <br>in Neuchatel </p>
+	<button id="neu-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></button>
+	</div>
+</div>
+<div class="book-now-section1">
+	<div class="shop-image-mob2">
+		
+	</div>
+	<div class="shop-wrapper-mob">
+	<p>Geschäft <br>in Müllheim </p>
+	<button id="mull-button" class="book-now-menu">Book now <img src="/wp-content/uploads/2024/06/vector_4.webp" alt=""></button>
+	</div>
+</div>
+
+</div>
+
+
+</section>
+<!-- MOBILE HEADER END -->
 	 </div>
 	  <!-- HEADER MOBILE END -->
 		</div>
