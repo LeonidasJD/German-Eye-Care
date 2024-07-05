@@ -63,10 +63,10 @@
 <div class="mobile-heahder-wrapper">
 		<header>
 			<div class="header-items-wrapper">
-			<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="mobile-logo" src="/wp-content/uploads/2024/06/logotype-2.webp" ></a></div>
+			<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="mobile-logo" src="/wp-content/uploads/2024/06/vector.webp" ></a></div>
 			<div class="btn-and-hamburger">
 			<div class="header-contact-button"><a href="/kontakt/">Kontakt</a></div>
-			<div id="open-dropdown-menu" class="hamburger-wrapper"><img class="hamburger-icon" src="/wp-content/uploads/2024/06/Frame-876.webp" ></div>
+			<div id="open-dropdown-menu" class="hamburger-wrapper"><img class="hamburger-icon" src="/wp-content/uploads/2024/07/dropdown-icon.webp" ></div>
 			</div>
 			
 			</div>
@@ -76,13 +76,14 @@
 
 <section id="under-wrapper" class="under-menu-wrapper">
 	<div class="close-btn-logo">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="dropdown-logo" src="/wp-content/uploads/2024/06/layer_1_2x.webp" alt=""></a>
-		<button id="close-mobile-menu-btn"><img src="/wp-content/uploads/2024/06/vector_2x.webp" alt=""></button>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="dropdown-logo" src="/wp-content/uploads/2024/06/vector.webp" alt=""></a>
+		<button id="close-mobile-menu-btn"><img src="/wp-content/uploads/2024/07/close-icon.webp" alt=""></button>
 	</div>
-<div><?php 
+	<div class="menu-and-geschaft-wrapper">
+	<div><?php 
     wp_nav_menu( 
         array( 
-            'theme_location' => 'mobile-menu'
+            'theme_location' => 'menu-1'
         ) 
     ); 
 ?></div>
@@ -107,6 +108,8 @@
 </div>
 
 </div>
+	</div>
+
 
 
 </section>
@@ -117,3 +120,29 @@
 			
 	</div>
 	
+
+
+	<!-- OPEN CLOSE MOBILE MENU START -->
+<script>
+var openDropwdown =document.getElementById('open-dropdown-menu');
+var closeDropdown = document.getElementById('close-mobile-menu-btn');
+var underMenuWrapper =document.getElementById('under-wrapper');
+
+openDropwdown.addEventListener('click', function(){
+	underMenuWrapper.style.top = "0%";
+});
+closeDropdown.addEventListener('click', function(){
+underMenuWrapper.style.top = "-220%";
+});
+
+var neuButton =document.getElementById('neu-button');
+var mullButton = document.getElementById('mull-button');
+
+neuButton.addEventListener('click', function(){
+	window.open("https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start", "_blank");
+});
+mullButton.addEventListener('click', function(){
+	window.open("https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start ", "_blank");
+});
+</script>
+<!-- OPEN CLOSE MOBILE MENU END -->

@@ -103,6 +103,13 @@ width: 9.5rem;
 .hamburger-icon{
     width: 2rem;
 }
+.menu-and-geschaft-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
 .under-menu-wrapper{
     height: 100svh;
     z-index: 1111;
@@ -115,7 +122,7 @@ width: 9.5rem;
     transition: top 0.5s ease;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
   }
 .header-contact-button a{
     background-color: #36641C;
@@ -144,41 +151,41 @@ width: 9.5rem;
 .close-btn-logo button img{
 width: 1rem;
 }
-.menu-mobile-menu-container{
+.menu-menu-1-container{
     padding: 0px 10px 0px 10px;
     
 }
 .dropdown-logo{
     width: 14rem;
 }
-#menu-mobile-menu{
+#menu-menu-2{
     list-style-type: none;
     padding: 0px;
 }
-#menu-mobile-menu li{
+#menu-menu-2 li{
     border-bottom: solid 2px #336B15;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-#menu-mobile-menu li a{
+#menu-menu-2 li a{
     font-family: 'Lato';
     color: #0E130B;
     font-size: 22px;
     line-height: 128.5%;
 }
-#menu-mobile-menu li:nth-last-child(-n+2) a {
+#menu-menu-2 li:nth-last-child(-n+1) a {
     color: #36641C;
     font-weight: bold;
 }
 .shop-image-mob{
-    background-image: url('/wp-content/uploads/2024/06/beauty_salon_with_reception_make_up_centre_and_ma_2023_11_27_04_50_19_utc_2x.webp');
+    background-image: url('/wp-content/uploads/2024/07/glasses.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 70px;
 }
 .shop-image-mob2{
-    background-image: url('/wp-content/uploads/2024/06/second.webp');
+    background-image: url('/wp-content/uploads/2024/07/shop.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,7 +200,7 @@ width: 1rem;
 }
 .shop-wrapper-mob p{
     margin: 0px;
-    font-family: 'Glegoo';
+    font-family: 'Lato';
     color: white;
     font-size: 18px;
     line-height: 117%;
@@ -214,6 +221,9 @@ width: 1rem;
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 600;
+}
+.book-now-menu img{
+    width: 13px;
 }
 }
 
