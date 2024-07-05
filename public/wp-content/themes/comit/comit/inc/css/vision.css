@@ -309,30 +309,33 @@
 /* HERO SECTION RESPONSIVE END */
 
 /* OUR STORY SECTION RESPONSIVE START */
-.our-story-container{
-    border:none;
-    margin: 0px 10px 0px 10px; 
-    border-radius: 0px
-    
+@media  screen and (max-width: 768px) {
+    .our-story-container{
+        border:none;
+        margin: 0px 10px 0px 10px; 
+        border-radius: 0px
+        
+    }
+    .small-text-wrapper{
+        display: none;
+    }
+    .heading-and-paragraf{
+    padding: 0px;
+    }
+    .heading-and-paragraf h1{
+        font-size: 24px;
+    }
+    .heading-and-paragraf p{
+        font-size: 16px;
+    }
+    .heading-and-paragraf .line-divider{
+        display: none;
+    }
+    .rest-paragraphs-wrapper{
+        margin: 0px;
+    }
 }
-.small-text-wrapper{
-    display: none;
-}
-.heading-and-paragraf{
-padding: 0px;
-}
-.heading-and-paragraf h1{
-    font-size: 24px;
-}
-.heading-and-paragraf p{
-    font-size: 16px;
-}
-.heading-and-paragraf .line-divider{
-    display: none;
-}
-.rest-paragraphs-wrapper{
-    margin: 0px;
-}
+
 /* OUR STORY SECTION RESPONSIVE END */
 
 /* CHECK OUT BLOG SECTION RESPONSIVE START */
