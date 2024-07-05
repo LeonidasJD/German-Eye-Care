@@ -212,3 +212,51 @@ div.asl_r.asl_w.vertical .results .item::after{
 }
 
 /* ALL BLOGS CSS END */
+
+/* HERO AND SEARCH BAR SECTION RESPONSIVE CSS START*/
+@media screen and (max-width:767px) {
+    .blog-section-container{
+        background-image: url('');
+        background-color: #F5F5F5;
+        margin: 30px 10px 20px 10px;
+        border-radius: 10px;
+    }
+    .all-blog-container{
+        margin: 50px 10px 50px 10px;
+    }
+    .blog-section-wrapper{
+        padding: 10px 0px 30px 0px;
+
+    }
+    .blog-section-underwrapper{
+        align-items: center;
+    }
+    .blog-section-underwrapper h1{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    .blog-section-underwrapper p{
+        text-align: center;
+    }
+    .search-bar{
+        max-width: 248px;
+    }
+    .all-blog-wrapper{
+        padding: 0px;
+    }
+    .all-blog-underwrapper{
+        flex-direction: column;
+    }
+    .latest-news-and-banner-wrapper{
+        display: none;
+    }
+    .newest-post{
+flex-direction: column; 
+    }
+    .newest-post .post-image-all img{
+        width: 100%;
+        height: auto;
+    }
+}
+/* HERO AND SEARCH BAR SECTION RESPONSIVE CSS END */
