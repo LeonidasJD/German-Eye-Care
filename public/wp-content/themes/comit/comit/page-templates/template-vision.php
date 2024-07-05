@@ -90,18 +90,26 @@ get_header();
                         <div class="single-banner banner-with-border">
                             <h2>ABW</h2>
                             <p>For example, if an accommodative inward squint is diagnosed in a child, further treatment by an ophthalmologist / orthoptist is necessary.</p>
+                            <div class="single-banner-img-wrapper">
                             <img src="/wp-content/uploads/2024/06/abw-logo.webp" >
+                            </div>
+                            
                         </div>
                         <div class="single-banner banner-without-border">
                             <h2>BSVSB</h2>
                             <p>Whereas for a blind or visually impaired person, it is advisable to put them in touch with a social institution such as the
                             South Baden Association for the Blind and Visually Impaired in order to possibly apply for blindness benefits. </p>
+                            <div class="single-banner-img-wrapper">
                             <img src="/wp-content/uploads/2024/06/bsvsb-logo.webp" >
+                            </div>
+                            
                         </div>
                         </div>
                         <div class="under-black-banner-wrapper">
                         <div class="under-black-banner">
-                            <div class="under-black-baner-img"><img src="/wp-content/uploads/2024/06/book-logo-e1719487886497.webp" ></div>
+                            <div class="under-black-baner-img"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M43.5 4.5C37.1616 4.52719 32.4497 5.4 29.04 6.90844C26.4956 8.03344 25.5 8.88469 25.5 11.7684V42C29.3972 38.4844 32.8556 37.5 46.5 37.5V4.5H43.5ZM4.5 4.5C10.8384 4.52719 15.5503 5.4 18.96 6.90844C21.5044 8.03344 22.5 8.88469 22.5 11.7684V42C18.6028 38.4844 15.1444 37.5 1.5 37.5V4.5H4.5Z" fill="#F9FAFD"/>
+</svg></div>
                             <div class="under-black-banner-paragraph"><p>We can also arrange <span>internships</span> for students with various health care providers for optimal training and further education.</p></div>
                         </div>
                         </div>
