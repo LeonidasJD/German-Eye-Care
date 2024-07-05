@@ -153,3 +153,37 @@
     z-index: 1000;
 }
 /* MAP CSS END */
+
+
+/* CONTACT RESPONSIVE START */
+@media screen and (max-width:767px) {
+    .contact-section-wrapper{
+        padding: 50px 10px 50px 10px;
+    }
+    .contact-section-underwrapper h1{
+        font-size: 28px;
+    }
+    .contact-section-underwrapper p{
+        font-size: 16px;
+    }
+    .map-and-form-wrapper{
+        flex-direction: column;
+    }
+    .shop-section{
+        width: auto;
+    }
+    .shop-wrapper{
+        padding: 28px 15px;
+    }
+    .shop-wrapper ul li img{
+        width: 16px;
+       
+    }
+    .info-button-app{
+        max-width: 100%;
+    }
+    .form-section{
+        width: 100%;
+    }
+}
+/* CONTACT RESPONSIVE END */

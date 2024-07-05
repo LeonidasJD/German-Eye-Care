@@ -83,3 +83,49 @@
     color: #36641c;
 }
 /* LIST OF SERVICES CSS END */
+
+
+/* SERVICE HERO SECTION RESPONSIVE START*/
+@media screen and (max-width: 768px){
+    .services-hero-container{
+        background-image: url('/wp-content/uploads/2024/07/woman-with-galsses.webp');
+        margin: 23px 10px 0px 10px;
+        border-radius: 10px;
+    }
+    .services-hero-wrapper{
+        padding: 0px;
+    }
+    .services-hero-underwrapper{
+        padding: 30px 10px 260px 10px;
+    }
+    .services-hero-underwrapper h1{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+/* SERVICE HERO SECTION RESPONSIVE END */
+
+/* LIST OF SERVICES RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .services-container{
+        margin: 25px 10px 90px 10px;
+        border-radius: 0px;
+        
+    }
+    .all-services-wrapper{
+        padding: 0px;
+    }
+    .all-services-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .service-card-info-all h2{
+        font-size: 16px;
+    }
+    .service-card-info-all p{
+        font-size: 14px;
+    }
+}
+/* LIST OF SERVICES RESPONSIVE END */

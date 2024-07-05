@@ -190,3 +190,78 @@
     color: #36641C;
 }
 /*RELATED SERVICES SECTION CSS END*/
+
+/* HERO SECTION RESPONSIVE CSS START*/
+@media screen and (max-width: 768px) {
+    .overlay{
+        padding: 63px 0px 30px 0px!important;
+    }
+    .overlay h1{
+        font-size: 28px!important;
+    }
+}
+/* HERO SECTION RESPONSIVE CSS END*/
+
+/* TEXT AND FORM SECTION RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .container-text-and-form-section{
+        padding: 30px 10px 62px 10px;
+    }
+    .text-form-section-underwrapper{
+        padding: 0px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .service-section-wrapper{
+        margin-bottom: 0px;
+    }
+    .services-section-title h2{
+        font-size: 20px;
+    }
+    .services-section-subtitle h3{
+        font-size: 18px;
+    }
+    .services-section-description p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .post-text{
+        width: 100%;
+    }
+}
+
+/* TEXT AND FORM SECTION RESPONSIVE END */
+
+/* RELATED SERVICES SECTION RESPONSIVE START */
+@media screen and (max-width: 768px) {
+    .container0related-services-section{
+        margin: 20px 10px 70px 10px;
+    }
+    .related-services-section-wrapper{
+        padding: 0px;
+    }
+    .related-services-section-wrapper h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .related-service-card-info h3{
+        font-size: 16px;
+    }
+    .related-services-section-wrapper p{
+        color: var(--text);
+        font-size: 14px;
+    }
+    .related-service-button a{
+        font-size: 14px;
+    }
+    .related-services-cards-wrapper{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .related-single-service-card{
+        width: 100%;
+        margin: 0px;
+        
+    }
+}
+/* RELATED SERVICES SECTION RESPONSIVE END */

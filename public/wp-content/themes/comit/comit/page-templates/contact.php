@@ -11,11 +11,11 @@ get_header();
                 <div class="map-and-form-wrapper">
                     <div class="shop-section">
                         <div class="shop-wrapper">
-                        <h2>Standort: German Eye Care Neuenburg</h2>
+                        <h2>Geschäft: Müllheim</h2>
                         <ul>
-                        <li><img src="/wp-content/uploads/2024/06/map-pin-icon1.webp" ><p>Rebstraße 4, 79395 Neuenburg am Rhein</p></li>
-                        <li><img src="/wp-content/uploads/2024/06/letter-icon.webp" ><p><a href="mailto:info@germaneyecare.de">info@germaneyecare.de</a></p></li>
-                        <li><img src="/wp-content/uploads/2024/06/phone-icon.webp" ><p><a href="tel:07631-73606">07631-73606</a></p></li>
+                        <li><img src="/wp-content/uploads/2024/06/map-pin-icon1.webp" ><p>Werderstraße 45, 79379 Müllheim</p></li>
+                        <li><img src="/wp-content/uploads/2024/06/letter-icon.webp" ><p><a href="mailto:muellheim@hoffmann-optik.de">muellheim@hoffmann-optik.de</a></p></li>
+                        <li><img src="/wp-content/uploads/2024/06/phone-icon.webp" ><p><a href="tel:076313375">07631-3375</a></p></li>
                     </ul>
                     <div class="info-button-app">
                         <a href="https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start">Book an appointment <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,11 +25,11 @@ get_header();
                     </div>
                         </div>
                         <div class="shop-wrapper">
-                        <h2>Standort: German Eye Care Neuenburg</h2>
+                        <h2>Geschäft: Neuchâtel</h2>
                         <ul>
                         <li><img src="/wp-content/uploads/2024/06/map-pin-icon1.webp" ><p>Rebstraße 4, 79395 Neuenburg am Rhein</p></li>
-                        <li><img src="/wp-content/uploads/2024/06/letter-icon.webp" ><p><a href="mailto:info@germaneyecare.de">info@germaneyecare.de</a></p></li>
-                        <li><img src="/wp-content/uploads/2024/06/phone-icon.webp" ><p><a href="tel:07631-73606">07631-73606</a></p></li>
+                        <li><img src="/wp-content/uploads/2024/06/letter-icon.webp" ><p><a href="mailto:neuenburg@hoffmann-optik.de">neuenburg@hoffmann-optik.de</a></p></li>
+                        <li><img src="/wp-content/uploads/2024/06/phone-icon.webp" ><p><a href="tel:0763173606">07631-73606</a></p></li>
                     </ul>
                     <div class="info-button-app">
                     <a href="https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start">Book an appointment <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,6 +60,9 @@ get_header();
                         </div>
                 </div>
 </div>
+ <!-- MOBILE SIDE BANNER START -->
+ <?php get_template_part('template-parts/mobile-side-banner') ?>
+<!-- MOBILE SIDE BANNER END -->
 <?php
 get_footer();
 ?>

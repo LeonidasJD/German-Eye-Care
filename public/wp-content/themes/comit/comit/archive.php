@@ -148,6 +148,10 @@ get_header();
     </div>
  </div>
  <!-- ALL BLOGS SECTION END -->
+
+  <!-- MOBILE SIDE BANNER START -->
+<?php get_template_part('template-parts/mobile-side-banner') ?>
+<!-- MOBILE SIDE BANNER END -->
 <?php
 get_footer();
 ?>

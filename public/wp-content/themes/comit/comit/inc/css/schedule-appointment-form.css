@@ -196,3 +196,14 @@
     margin-bottom: 50px;
 }
 /* CONTACT FORM DIFERENCES END */
+
+
+
+@media screen and (max-width:768px) {
+    .form-wrapper h2{
+        font-size: 23px;
+    }
+    .form-wrapper .frm_form_fields button{
+        width: 100%!important;
+    }
+}
