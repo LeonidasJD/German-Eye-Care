@@ -53,7 +53,7 @@ get_header();
                 <div class="check-data">
                 <h2>Get an insight into our blogs</h2>
                 <p>Lorem ipsum dolor sit amet consectetur. Adipiscing elit faucibus elit lacinia laoreet molestie. Nunc orci venenatis </p>
-                <a href="#">Check our blog</a>
+                <a class="button-type-1" href="/category/alle">Check our blog</a>
                 </div>
                 
             </div>
@@ -132,7 +132,7 @@ get_header();
             </div>
         </div>
         <div class="marquee-content">
-                        <marquee scrollamount="15"> 
+                        <marquee scrollamount="10"> 
                             Endocrinologists <img src="/wp-content/uploads/2024/06/green-dot.webp">
                             Diabetologists <img src="/wp-content/uploads/2024/06/green-dot.webp">
                             Oncologists <img src="/wp-content/uploads/2024/06/green-dot.webp">
@@ -154,3 +154,33 @@ get_header();
 <?php get_template_part('template-parts/mobile-side-banner') ?>
 <!-- MOBILE SIDE BANNER END -->
 <?php get_footer(); ?>
+
+
+<script>
+    //  ANIMACIJE CRNI BANNER ULAZI START 
+   document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries) => {//PRACENJE DA LI JE ELEMENT U VIEWPORTU
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                anime({
+                    targets: '.under-black-banner',
+                    right: 0,
+                    opacity: 1,
+                    easing: 'easeOutExpo',
+                    duration: 2000 
+                });
+                
+                observer.unobserve(entry.target); // Prestaje da prati nakon animacije
+            }
+        });
+    }, {
+        threshold: 1 // Element treba biti 100% vidljiv pre nego sto se animacija pokrene
+    });
+
+    const target = document.querySelector('.single-banner');
+    if (target) {
+        observer.observe(target);
+    }
+});
+// ANIMACIJA CRNI BANNER ULAZI END
+</script>

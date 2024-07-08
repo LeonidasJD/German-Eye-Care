@@ -42,10 +42,15 @@
     display: flex;
     flex-direction: column;
     border-radius: 8px;
+    overflow: hidden;
+}
+.single-service-card-all:hover img{
+    transform: scale(1.1);
 }
 .single-service-card-all img{
     width:100%;
     border-radius: 8px 8px 0px 0px ;
+    transition: transform .3s ease;
 }
 .service-card-info-all{
     padding: 20px 15px 10px;

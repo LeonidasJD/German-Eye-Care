@@ -25,6 +25,11 @@
 	<!-- LIB FOR MOUSE SCROLL ON MAP START -->
 	 <script src="https://unpkg.com/leaflet-mouseposition/Leaflet.MousePosition.min.js"></script>
 	 <!-- LIB FOR MOUSE SCROLL ON MAP START -->
+
+	 <!-- ANIME.JS LIB START -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+	<!-- ANIME.JS LIB END -->
+
 	<?php wp_head(); ?>
 </head>
 

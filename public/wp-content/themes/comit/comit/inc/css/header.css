@@ -35,7 +35,9 @@
 .header-logo img{
     width: 232px;
 }
-
+.button-wrapper{
+    display: flex;
+}
 .contact-button{
     border-radius: 4px;
     background-color: var(--zelena-primarna);

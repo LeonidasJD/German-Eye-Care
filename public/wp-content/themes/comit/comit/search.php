@@ -106,3 +106,27 @@
 </div>
 
 <?php get_footer(); ?>
+
+
+<script>
+    var swiper = new Swiper(".mySwiper-blog", {
+       spaceBetween:20,
+       slidesPerView:3.5
+    });
+
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+        anime({
+            targets: '.blogs-and-categories-wrapper',
+            left: '0%',  
+            duration: 2000,  
+            easing: 'easeOutExpo'  
+        });
+        anime({
+            targets: '.latest-news-and-banner-wrapper',
+            right: '0%',  
+            duration: 2000,  
+            easing: 'easeOutExpo' 
+        });
+    });
+  </script>

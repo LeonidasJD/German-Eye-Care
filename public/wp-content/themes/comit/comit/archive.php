@@ -178,5 +178,49 @@ get_footer();
        spaceBetween:20,
        slidesPerView:3.5
     });
+// <!-- CATEGORY SWIPER END -->
+
+// BLOGS AND AKUTELEE THEMEN ANIMATION START
+    document.addEventListener('DOMContentLoaded', (event) => {
+        anime({
+            targets: '.blogs-and-categories-wrapper',
+            left: '0%',  
+            duration: 2000,  
+            easing: 'easeOutExpo'  
+        });
+        anime({
+            targets: '.latest-news-and-banner-wrapper',
+            right: '0%',  
+            duration: 2000,  
+            easing: 'easeOutExpo' 
+        });
+    });
+    // BLOGS AND AKUTELEE THEMEN ANIMATION END
+
+
+    // CATEGORY BUTTON ANIMATION START
+    document.querySelectorAll('.blog-categories ul li').forEach(link => {
+        link.addEventListener('mouseenter', () => {
+            // Prvo podizanje za 10px
+            anime({
+                targets: link,
+                translateY: -10,
+                easing: 'easeOutQuad',
+                duration: 300,
+               
+            });
+        });
+
+        link.addEventListener('mouseleave', () => {
+            anime.remove(link); // Remove the animation when mouse leaves
+            anime({
+                targets: link,
+                translateY: 0,
+                easing: 'easeOutQuad',
+                duration: 300
+            });
+        });
+    });
+    // CATEGORY BUTTON ANIMATION END 
   </script>
-  <!-- CATEGORY SWIPER END -->
+  

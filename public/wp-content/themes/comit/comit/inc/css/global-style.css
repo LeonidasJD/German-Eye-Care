@@ -31,6 +31,141 @@
 
 }
 
+/* BUTTON TYPE 1 CSS START */
+.button-type-1{
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    transition: .3s;
+    z-index: 1;
+   }
+   .button-type-1:before{
+   content: '';
+    width: 0;
+    height: 495%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #0E130B;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   .button-type-1:hover:before{
+       width: 105%;
+   }
+   .button-type-1:hover{
+       color: white;
+   }
+   .button-type-1:active {
+       transform: translate(5px,5px);
+       transition-duration: .3s;
+     }
+   /* BUTTON TYPE 1 CSS END */
+   
+   /* BUTTON TYPE 2 CSS START */
+.button-type-2{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: .3s;
+    z-index: 1;
+   
+   }
+   .button-type-2:before{
+    content: '';
+    width: 0;
+    height: 690%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   .button-type-2:hover:before{
+       width: 105%;
+   }
+   .button-type-2:hover{
+       color:#36641C;
+       border-color: #36641C;
+   }
+   
+   .button-type-2:hover a{
+       color:#36641C ;
+   }
+   .button-type-2:active {
+       transform: translate(5px,5px);
+       transition-duration: .3s;
+     }
+     
+   /* BUTTON TYPE 2 CSS END */
+
+
+   /*  BUTTON TYPE 3 CSS START */
+.button-type-3{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: .3s;
+    z-index: 1;
+    border: 1px solid #36641C;
+    
+   
+   }
+   .button-type-3:before{
+   content: '';
+    width: 0;
+    height: 660%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+    
+   }
+   .button-type-3:hover:before{
+       width: 105%;
+       height: 390px;
+
+   }
+   .button-type-3:hover{
+       color: #36641c !important;
+       
+       
+       
+   }
+   .button-type-3:hover .arrow-svg path{
+    fill: #36641C;
+    
+   }
+   .button-type-3:hover .clock-svg path{
+    stroke:#36641C ;
+    
+   }
+   
+   .button-type-3:hover a{
+       color:#36641C ;
+   }
+   .button-type-3:active {
+       transform: translate(5px,5px);
+       transition-duration: .3s;
+     }
+/* BUTTON TYPE 3 CSS END */
+
+
+/* JUST CLICK STYLE START*/
+.just-click:active{
+    transform: translate(5px,5px);
+    transition-duration: .3s;
+}
 a{
 	text-decoration: none;
  }
