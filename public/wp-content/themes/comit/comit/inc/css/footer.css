@@ -50,7 +50,7 @@
     margin: 0px;
 }
 .footer-nav ul li a:hover{
-    color: #6BC462;
+    color: var(--zelena-primarna);
 }
 .social-ul{
     display: flex;
@@ -93,7 +93,7 @@
     font-weight: 400;
 }
 .copyright-content a:hover{
-    color: #6BC462;
+    color: var(--zelena-primarna);
 }
 
 @media screen and (max-width:768px){

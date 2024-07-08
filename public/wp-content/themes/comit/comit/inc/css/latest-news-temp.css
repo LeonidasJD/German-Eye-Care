@@ -58,7 +58,7 @@ object-fit: cover;
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 400;
-    color: #76BA51;
+    color: var(--zelena-primarna);
     
     
 }

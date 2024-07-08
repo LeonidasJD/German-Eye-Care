@@ -80,7 +80,7 @@
     font-family: lato;
     font-size: 14px;
     text-decoration: underline;
-    color: #36641c;
+    color: var(--zelena-primarna);
 }
 /* LIST OF SERVICES CSS END */
 

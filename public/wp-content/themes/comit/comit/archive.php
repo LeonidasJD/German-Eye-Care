@@ -42,6 +42,22 @@ get_header();
                         }
                         ?>
                     </div>
+                    <!-- MOBILE BLOG CATEGORIES SWIPER START -->
+                    <div class="mobile-blog-categories">
+                    <div class="swiper mySwiper-blog">
+    <div class="swiper-wrapper swiper-wrapper-blog">
+    <?php
+            if (!empty($categories)) {
+                foreach ($categories as $category) {
+                    echo '<div class="swiper-slide swiper-slide-blog"><a href="' . esc_url(get_category_link($category->term_id)) . '" class="'. (is_category($category->term_id) ? 'current-category' : '').'">' . $category->name . '</a></div>';
+                }
+            }
+            ?>
+    </div>
+  </div>
+                    
+                    </div>
+                    <!-- MOBILE BLOG CATEGORIES SWIPER END -->
                     <div class="list-of-blogs-wrapper">
     <?php
     // Dobijanje ID-a najnovijeg posta na sajtu
@@ -155,3 +171,12 @@ get_header();
 <?php
 get_footer();
 ?>
+
+<!-- CATEGORY SWIPER START -->
+ <script>
+    var swiper = new Swiper(".mySwiper-blog", {
+       spaceBetween:20,
+       slidesPerView:3.5
+    });
+  </script>
+  <!-- CATEGORY SWIPER END -->

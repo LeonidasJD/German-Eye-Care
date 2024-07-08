@@ -124,8 +124,8 @@
     font-size: 13px;
 }
 .leaflet-popup-content p a{
-    color: #3C582C;
-    border: 1px solid #3C582C;
+    color: var(--zelena-primarna);
+    border: 1px solid var(--zelena-primarna);
     border-radius: 4px;
     padding: 5px;
 }
@@ -178,6 +178,9 @@
     .shop-wrapper ul li img{
         width: 16px;
        
+    }
+    .info-button-app a{
+        justify-content: center;
     }
     .info-button-app{
         max-width: 100%;

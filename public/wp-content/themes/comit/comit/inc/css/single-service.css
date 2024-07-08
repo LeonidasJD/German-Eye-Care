@@ -187,7 +187,7 @@
     font-family: 'Lato';
     font-size: 14px;
     text-decoration: underline;
-    color: #36641C;
+    color: var(--zelena-primarna);
 }
 /*RELATED SERVICES SECTION CSS END*/
 
