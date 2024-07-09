@@ -234,6 +234,34 @@ get_header();
 
 
 <script>
+// ANIMATION FOR LIST OF BLOGS START
+document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries) => {//PRACENJE DA LI JE ELEMENT U VIEWPORTU
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                anime({
+                    targets: '.blog-home-list a',
+                    opacity: [0, 1],
+                    translateY: [20, 0],
+                    delay: anime.stagger(100), // Kašnjenje od 500ms za svaki sledeći element
+                    duration: 1000,
+                    easing: 'easeOutQuad'
+                });
+                
+                observer.unobserve(entry.target); // Prestaje da prati nakon animacije
+            }
+        });
+    }, {
+        threshold: 1 // Element treba biti 100% vidljiv pre nego sto se animacija pokrene
+    });
+
+    const target = document.querySelector('.blog-home-underwrapper p');
+    if (target) {
+        observer.observe(target);
+    }
+});
+// ANIMATION FOR LIST OF BLOGS END
+
     // SWIPER LOGIC START
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,

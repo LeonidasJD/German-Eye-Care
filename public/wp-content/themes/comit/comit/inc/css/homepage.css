@@ -312,6 +312,11 @@ transition: transform .3s ease;
     grid-column-gap: 70px;
     grid-row-gap: 40px;
 }
+.blog-home-list a{
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
 .post-image img{
     width: 200px;
     height: 182px;

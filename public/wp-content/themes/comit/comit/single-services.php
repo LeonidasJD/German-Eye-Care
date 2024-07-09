@@ -136,6 +136,9 @@
 
 <script>
 
+
+
+
 // POSTAVLJANJE NOVOG ELEMNTA U FORMU START
  // Kreiranje novog elementa sa klasom 'paralel-fields'
  // Kreiranje prvog elementa sa klasom 'paralel-fields'

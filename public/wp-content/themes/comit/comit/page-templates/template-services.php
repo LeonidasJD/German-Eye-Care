@@ -67,3 +67,18 @@ get_header();
 <?php
 get_footer();
 ?>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+anime({
+    targets: '.single-service-card-all',
+    opacity: [0, 1],
+    translateY: [20, 0],
+    delay: anime.stagger(100), // Kašnjenje od 500ms za svaki sledeći element
+    duration: 1000,
+    easing: 'easeOutQuad'
+  });
+
+});
+</script>
