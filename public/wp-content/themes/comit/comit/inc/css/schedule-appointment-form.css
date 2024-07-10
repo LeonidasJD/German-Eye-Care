@@ -29,6 +29,9 @@
  ,#field_tiuhm_label,#field_18euj_label,#field_uw1qu_label,#field_8ldlz_label,#field_6tvru_label{
     display: none;
  }
+ .frm_message{
+    font-family: 'Lato';
+ }
 .form-wrapper .frm_form_fields button{
 
     font-family: var(--glavni-font);
