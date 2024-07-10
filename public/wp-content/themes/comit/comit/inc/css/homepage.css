@@ -388,6 +388,7 @@ transition: transform .3s ease;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        width: 100%;
     }
     .hero-section-underwrapper{
         padding: 67px 0px 390px 0px;
