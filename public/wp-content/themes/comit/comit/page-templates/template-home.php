@@ -69,7 +69,7 @@ get_header();
             <div class="our-section-underwrapper">
                 <h2>Our Services</h2>
                 <div class="text-wrapper">
-                    <p>We Provides always our best services for our clients,</p> <a href="check services"> check services <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a>
+                    <p>We Provides always our best services for our clients,</p> <a href="/vorteile"> check services <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a>
                 </div>
                 
 
@@ -184,7 +184,7 @@ get_header();
             <div class="blog-home-wrapper">
                 <div class="blog-home-underwrapper">
                     <h2>Current specialist articles</h2>
-                    <p>Lorem ipsum dolor sit amet consecteturat augue, <a href="#"> check blog <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a></p>
+                    <p>Lorem ipsum dolor sit amet consecteturat augue, <a href="/category/alle"> check blog <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a></p>
                     <div class="blog-home-list">
                     <?php
                 $post_args= array(

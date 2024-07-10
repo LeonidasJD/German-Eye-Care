@@ -385,6 +385,9 @@ transition: transform .3s ease;
         background-image: url('/wp-content/uploads/2024/07/woman-on-examination.webp');
         margin: 0px;
         border-radius: 0px 0px 12px 12px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     .hero-section-underwrapper{
         padding: 67px 0px 390px 0px;

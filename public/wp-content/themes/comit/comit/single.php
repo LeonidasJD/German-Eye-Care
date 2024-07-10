@@ -100,7 +100,7 @@ get_header();
    <section class="related-posts-wrapper">
    <div class="related-posts-underwrapper">
     <div class="related-heading-and-paragraph">
-    <h2>RELATED BLOGS</h2>
+    <h2>Related blogs</h2>
 		<p>Dignissim massa duis eget turpis fringilla nam ridiculus ultricies urna vehicula fusce. Elit interdum urna iaculis leo sit pharetra vel. Vitae letius luctus lacinia rhoncus penatibus per.</p>
     </div>
 		
