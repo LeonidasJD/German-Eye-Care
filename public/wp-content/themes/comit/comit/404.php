@@ -1,60 +1,35 @@
 <?php
-/**
- * The template for displaying 404 pages (not found)
- *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
- *
- * @package comit
- */
-
 get_header();
 ?>
+<div class="error-page-container">
+	<div class="container-14">
+		<div class="error-page-wrapper">
+		<div class="error-page-underwrapper">
+			<div class="error-image"><img src="/wp-content/uploads/2024/07/ooops-woman.webp" alt="ooops womani"></div>
+			<div class="error-info">
+			<h1>ooops!</h1>
+			<h2>404 - PAGE NOT FOUND</h2>
+			<p>The page you were looking for was moved or doesn’t exist.<br>Let’s get you back, or you can search for yourself.</p>
+			<div class="button-and-search-wrapper">
+				<div class="button-and-search-underwrapper">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class=""><svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.46967 5.96967C0.176777 6.26256 0.176777 6.73744 0.46967 7.03033L5.24264 11.8033C5.53553 12.0962 6.01041 12.0962 6.3033 11.8033C6.59619 11.5104 6.59619 11.0355 6.3033 10.7426L2.06066 6.5L6.3033 2.25736C6.59619 1.96447 6.59619 1.48959 6.3033 1.1967C6.01041 0.903805 5.53553 0.903805 5.24264 1.1967L0.46967 5.96967ZM14 5.75L1 5.75L1 7.25L14 7.25L14 5.75Z" fill="#36641C"/>
+</svg>
+Return home</a>
+				<p>or</p>
+				<div class="search-bar search-404"><?php echo do_shortcode('[wd_asp id=3]'); ?></div>
+				</div>
+				
+			</div>
+			</div>
 
-	<main id="primary" class="site-main">
+			
+		</div>
+		</div>
+		
+	</div>
+</div>
+<?php 
 
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'comit' ); ?></h1>
-			</header><!-- .page-header -->
-
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'comit' ); ?></p>
-
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'comit' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$comit_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'comit' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$comit_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-
-	</main><!-- #main -->
-
-<?php
 get_footer();
+?>

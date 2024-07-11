@@ -5,7 +5,7 @@
         <div class="blog-section-wrapper">
             <div class="blog-section-underwrapper">
                 <h1>Search results for "<?php echo get_search_query(); ?>"</h1>
-				<div class="search-bar"><?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?></div>
+				<div class="search-bar"><?php echo do_shortcode('[wd_asp id=1]'); ?></div>
                 
             </div>
         </div>
@@ -41,7 +41,7 @@
                         $search_query = get_search_query();
 
                         $search_results = new WP_Query(array(
-                            'post_type' => 'post',
+                            'post_type' => array('post','services'),
                             'posts_per_page' => 5,
                             'orderby' => 'date',
                             'paged' => $paged,
@@ -58,13 +58,22 @@
                                     <div class="single-blog-card-all">
                                         <div class="post-image-all">
                                             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
-                                            <p class="category-name-banner"><?php if (!empty($blog_categories)) {
-                                                    echo esc_html($blog_categories[1]->name); 
-                                                } ?></p>
+                                            
+                                            <?php if (get_post_type() == 'post' && !empty($blog_categories)) : ?>
+                                                <p class="category-name-banner">
+                                                    <?php echo esc_html($blog_categories[1]->name); ?>
+                                                </p>
+                                            <?php endif; ?>
                                         </div>
 
                                         <div class="post-info-all">
-                                            <p><img src="/wp-content/uploads/2024/06/clock-icon.webp"> <?php echo get_the_date(); ?></p>
+                                            <?php
+                                            if(get_post_type() == 'post'){
+                                                echo '<p><img src="/wp-content/uploads/2024/06/clock-icon.webp"> ' . get_the_date() . '</p>';
+                                            }else{
+                                                echo '<p>Vorteile</p>';
+                                            }
+                                            ?>
                                             <h2><?php the_title(); ?></h2>
                                             <h3><?php echo get_the_excerpt(); ?></h3>
                                             <div class="read-more-blog-btn"><p>Read more</p></div>
@@ -113,7 +122,30 @@
        spaceBetween:20,
        slidesPerView:3.5
     });
+// CATEGORY BUTTON ANIMATION START
+document.querySelectorAll('.blog-categories ul li').forEach(link => {
+        link.addEventListener('mouseenter', () => {
+            // Prvo podizanje za 10px
+            anime({
+                targets: link,
+                translateY: -10,
+                easing: 'easeOutQuad',
+                duration: 300,
+               
+            });
+        });
 
+        link.addEventListener('mouseleave', () => {
+            anime.remove(link); // Remove the animation when mouse leaves
+            anime({
+                targets: link,
+                translateY: 0,
+                easing: 'easeOutQuad',
+                duration: 300
+            });
+        });
+    });
+    // CATEGORY BUTTON ANIMATION END 
 
     document.addEventListener('DOMContentLoaded', (event) => {
         anime({

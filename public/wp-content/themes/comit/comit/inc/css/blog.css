@@ -31,9 +31,6 @@
 .search-bar{
     width: 380px;
 }
-div.asl_r.vertical{
-    background-color: white !important;
-}
 .resdrg{
     display: flex;
     flex-direction: column;
@@ -41,28 +38,31 @@ div.asl_r.vertical{
     padding: 10px 10px!important;
 
 }
-.asl_content{
+div.asp_r.asp_r_1.vertical{
+    background-color: white !important;
+}
+.asp_content{
     padding: 5px 5px 15px 5px!important;
     border-bottom: 1px solid black!important;
     border-radius: 6px!important;
 
 }
-.asl_content:hover{
+.asp_content:hover{
     background-color: #EEEEEE!important;
 }
-.asl_content h3 a{
+.asp_content h3 a{
     font-family: var(--glavni-font) !important;
     color: var(--crno-zelenkasta)!important;
     font-size: 18px!important;
     font-weight: 400!important;
 }
-.asl_desc{
+.asp_desc{
     font-family: var(--glavni-font)!important;
     color: var(--paragraf)!important;
     font-size: 14px!important;
     line-height: 24px!important;
 }
-div.asl_r.asl_w.vertical .results .item::after{
+div.asp_r.asp_w.vertical .results .item::after{
     background: transparent!important;
 }
 .mobile-blog-categories{

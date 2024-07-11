@@ -9,7 +9,7 @@ get_header();
             <div class="blog-section-underwrapper">
                 <h1>Search out articles</h1>
                 <p>Lorem ipsum dolor sit amet censectur. Adiscpising elit</p>
-                <div class="search-bar"><?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?></div>
+                <div class="search-bar"><?php echo do_shortcode('[wd_asp id=1]'); ?></div>
             </div>
         </div>
     </div>

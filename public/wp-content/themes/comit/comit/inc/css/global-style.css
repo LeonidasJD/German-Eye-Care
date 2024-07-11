@@ -11,6 +11,7 @@
 @import url(./hero-banner-tem-part.css);
 @import url(./single.css);
 @import url(./mobile-side-banner.css);
+@import url(./404.css);
 :root{
     --bela:#FFFFFF;
     --svetlo-zelena:#61C555;

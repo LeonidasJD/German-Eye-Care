@@ -1,0 +1,110 @@
+.error-page-wrapper{
+    padding: 100px 0px 220px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+.error-page-underwrapper{
+    background-color: var(--zelena-primarna);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    border: 2px solid var(--text);
+}
+
+.error-image img{
+    width: 220px;
+    position: relative;
+    left: -20px;
+    top: 3px;
+}
+.error-info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    padding: 0px 80px 0px 70px;
+}
+.error-info h1{
+    margin: 0px;
+    font-family: var(--glavni-font);
+    color: white;
+    font-size: 94px;
+    font-weight: 400;
+}
+.error-info h2{
+    margin: 0px;
+    font-family: var(--glavni-font);
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.error-info p{
+    margin: 0px;
+    font-family: var(--glavni-font);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-and-search-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.button-and-search-underwrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.button-and-search-underwrapper a{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 25px;
+    border-radius: 4px;
+    gap: 10px;
+    font-size: 14px;
+    font-family: var(--glavni-font);
+    color: var(--zelena-primarna);
+}
+.search-404{
+    width: 280px;
+}
+div.asp_r.asp_r_3.vertical{
+    background-color: white!important;
+}
+.resdrg{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px 10px!important;
+
+}
+div.asp_r.asp_r_1.vertical{
+    background-color: white !important;
+}
+.asp_content{
+    padding: 5px 5px 15px 5px!important;
+    border-bottom: 1px solid black!important;
+    border-radius: 6px!important;
+
+}
+.asp_content:hover{
+    background-color: #EEEEEE!important;
+}
+.asp_content h3 a{
+    font-family: var(--glavni-font) !important;
+    color: var(--crno-zelenkasta)!important;
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+.asp_desc{
+    font-family: var(--glavni-font)!important;
+    color: var(--paragraf)!important;
+    font-size: 14px!important;
+    line-height: 24px!important;
+}
+div.asp_r.asp_w.vertical .results .item::after{
+    background: transparent!important;
+}
