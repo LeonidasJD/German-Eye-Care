@@ -29,7 +29,11 @@ Return home</a>
 		
 	</div>
 </div>
+
+
+
 <?php 
+
 
 get_footer();
 ?>
