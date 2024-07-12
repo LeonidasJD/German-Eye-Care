@@ -108,3 +108,42 @@ div.asp_r.asp_r_1.vertical{
 div.asp_r.asp_w.vertical .results .item::after{
     background: transparent!important;
 }
+
+/* 404 SECTION RESPONSIVE CSS START */
+@media screen and (max-width: 767px){
+    .error-page-wrapper{
+        padding: 0px;
+        margin: 15px 10px 60px 10px;
+        
+    }
+    .error-page-underwrapper{
+        flex-direction: column-reverse;
+        gap: 50px;
+        width: 100%;
+    }
+    .error-image{
+        display: flex;
+        justify-content: center;
+    }
+    .error-image img{
+        width: 212px;
+        left: auto;
+        top: auto;
+    }
+    .error-info h1{
+        font-size: 70px;
+    }
+    .error-info h2{
+        font-size: 14px;
+    }
+    .error-info p{
+        font-size: 14px;
+    }
+    .button-and-search-underwrapper{
+        flex-direction: column;
+    }
+    .search-404{
+        max-width: 270px;
+    }
+}
+/* 404 SECTION RESPONSIVE CSS END */
