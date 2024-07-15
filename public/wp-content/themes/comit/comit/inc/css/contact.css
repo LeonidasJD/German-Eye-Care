@@ -26,7 +26,9 @@
 }
 .shop-section,.form-section{
     width: 50%;
+    height: 648px;
 }
+
 .shop-section{
     width: 50%;
     display: flex;
@@ -184,6 +186,9 @@
     }
     .info-button-app{
         max-width: 100%;
+    }
+    .shop-section,.form-section{
+        height: auto;
     }
     .form-section{
         width: 100%;

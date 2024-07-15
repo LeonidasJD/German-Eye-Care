@@ -107,6 +107,9 @@
     
 
 }
+.contact-form-button{
+    margin-top: 0px !important;
+}
 .form-wrapper .frm_form_fields button svg{
     margin-left: 17.5px;
 }
