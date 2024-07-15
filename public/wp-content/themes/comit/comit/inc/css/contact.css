@@ -26,7 +26,8 @@
 }
 .shop-section,.form-section{
     width: 50%;
-    height: 648px;
+    display: flex;
+    
 }
 
 .shop-section{
