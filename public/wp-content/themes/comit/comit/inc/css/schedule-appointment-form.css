@@ -135,7 +135,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -3px;
+    margin-top: 0px;
     
 }
 .frm_error{
@@ -215,5 +215,26 @@
     }
     .form-wrapper .frm_form_fields button{
         width: 100%!important;
+    }
+    .main-form .frm_fields_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-form .paralel-fields{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .main-form .paralel-fields-2{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row!important;
+        gap: 30px!important;
+    }
+    .form-divider{
+        display: none;
+    }
+    #frm_field_9_container,#frm_field_11_container{
+        width: 100%;
     }
 }

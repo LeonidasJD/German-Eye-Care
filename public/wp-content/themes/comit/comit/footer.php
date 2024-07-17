@@ -14,7 +14,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="container-footer" 
 		<?php if (is_page('vorteile') || is_singular('services') ){
-			 echo 'style="background-color: #F0F0F0;padding-top: 50px"'; 
+			 echo 'style="background-color:white;padding-top: 50px"'; 
 			 }else if(is_page('kontakt')){
 				echo 'style="background-color: #F5F5F5"';
 			 }

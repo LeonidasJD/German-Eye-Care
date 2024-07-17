@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', () => {
     firstParallelFieldsDiv.appendChild(field11);
 
     var secondParallelFieldsDiv = document.createElement('div');
-    secondParallelFieldsDiv.className = 'paralel-fields';
+    secondParallelFieldsDiv.className = 'paralel-fields paralel-fields-2';
 
     firstParallelFieldsDiv.parentNode.insertBefore(secondParallelFieldsDiv, firstParallelFieldsDiv.nextSibling);
 
