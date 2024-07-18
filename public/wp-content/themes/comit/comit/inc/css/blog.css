@@ -172,7 +172,7 @@ div.asp_r.asp_w.vertical .results .item::after{
 }
 .pagination-wrapper{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .pagination{
     display: flex;
@@ -278,6 +278,7 @@ div.asp_r.asp_w.vertical .results .item::after{
     }
     .newest-post{
 flex-direction: column; 
+margin: 0px 0px 30px 0px!important;
     }
     .newest-post .post-image-all img{
                margin-right: 0;
@@ -322,7 +323,7 @@ flex-direction: column;
         align-items: start;
         background-color: #F5F5F5;
         border-radius: 0px 0px 8px 8px;
-        margin-bottom: 30px;
+        margin: 0px 10px 30px 10px;
 
     }
     .post-info-all{
@@ -336,7 +337,7 @@ flex-direction: column;
     }
     .post-image-all img{
         width: 100%;
-        height: 304px;
+        height: 182px;
         border-radius: 8px 8px 0px 0px;
         object-fit: cover;
     }

@@ -132,7 +132,21 @@ get_header();
             <?php
         }
 
-        // Paginacija
+       
+
+        wp_reset_postdata();
+    } else {
+        echo "No posts found";
+    }
+    ?>
+</div>
+                </div>
+                <div class="latest-news-and-banner-wrapper">
+					<?php get_template_part('/template-parts/latest-news','latest-news'); ?>
+				</div>
+            </div>
+            <?php
+            // Paginacija
         if ($all_blog_posts->max_num_pages > 1) {
             echo '<div class="pagination-wrapper">';
             echo '<div class="pagination">';
@@ -146,20 +160,7 @@ get_header();
             echo '</div>';
             echo '</div>';
         }
-
-        wp_reset_postdata();
-    } else {
-        echo "No posts found";
-    }
-    ?>
-</div>
-
-
-                </div>
-                <div class="latest-news-and-banner-wrapper">
-					<?php get_template_part('/template-parts/latest-news','latest-news'); ?>
-				</div>
-            </div>
+        ?>
         </div>
     </div>
  </div>
