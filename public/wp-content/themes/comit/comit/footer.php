@@ -33,8 +33,8 @@
 						<div class="footer-divider"></div>
 						<div class="footer-nav"><h2 class="footer-nav-title">Rechtliches</h2>
 						<ul>
-							<li><a href="#">Imprint</a></li>
-							<li><a href="#">Data protection</a></li>
+							<li><a href="#">Impressum</a></li>
+							<li><a href="#">Datenschutzerklärung</a></li>
 						</ul>
 						</div>
 						<div class="footer-divider"></div>
@@ -58,7 +58,7 @@
 								<div class="copyright-content">
 									<p>Copyright © 2024 Hoffmannoptik. All rights reserved.</p>
 									<div class="footer-small-divider"></div>
-									<a href="#">Privacy & Policy </a>
+									<a href="#">Datenschutzerklärung </a>
 								</div>
 							</div>
 							<div class="logo-div-down"><img src="/wp-content/uploads/2024/06/vector-1.webp" ></div>

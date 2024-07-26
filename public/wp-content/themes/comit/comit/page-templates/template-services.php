@@ -7,7 +7,7 @@ get_header();
     <div class="container-14">
         <div class="services-hero-wrapper">
             <div class="services-hero-underwrapper">
-                <h1>Lorem ipsum dolor sit amet consectetur. Varius sed. Varius sed.</h1>
+                <h1>Vorteile für unsere Kunden und Patienten</h1>
             </div>
         </div>
     </div>

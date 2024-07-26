@@ -22,10 +22,12 @@ get_header();
             <div class="text-and-form-underwrapper">
                 <div class="main-text">
                     <h2>Was passiert, wenn sich das <br> Sehen verschlechtert?</h2>
-                    <p>In solchen Fällen sind eine genaue Ursachenforschung, Therapie und fokussierte Versorgung notwendig. Das gelingt am besten mit einem Team von Spezialisten, die ihr Handwerk dank breit gefächerter Ausbildung, jahrelanger Erfahrungen und Empathie bestens beherrschen.</p>
-                    <p>Das Augenfürsorge-Netzwerk "GermanEyeCare" ist entstanden, um genau diese fachübergreifende Zusammenarbeit für Ihre Augen und Augengesundheit entstehen zulassen und somit einen nachhaltigen und wirksamen Beitrag zur Augengesundheit zu leisten.</p>
-                    <p>Bei uns können Sie sich nicht nur einen Überblick zum Thema Auge und Gesundheit verschaffen, sondern sich auch jederzeit an unsere Experten wenden, sollten Sie weitere Fragen haben. Wir beraten Sie gern und bieten Ihnen eine perfekt auf Sie zugeschnittene Versorgung. Ein optimal aufeinander abgestimmtes Expertenteam wartet auf Sie.</p>
+                    <p>In solchen Fällen sind eine genaue Ursachenforschung, Therapie und fokussierte Versorgung notwendig.</p>
+                    <p>Das gelingt am besten mit einem Team von Spezialisten, die ihr Handwerk dank breit gefächerter Ausbildung, jahrelanger Erfahrungen und Empathie bestens beherrschen.</p>
+                    <p>Bei uns können Sie sich nicht nur einen Überblick zum Thema Auge und Gesundheit verschaffen, sondern sich auch jederzeit an unsere Experten wenden, sollten Sie weitere Fragen haben.</p>
+                    <p>Wir beraten Sie gern und bieten Ihnen eine perfekt auf Sie zugeschnittene Versorgung. Ein optimal aufeinander abgestimmtes Expertenteam wartet auf Sie.</p>
                     <p>Rufen Sie noch heute an oder kontaktieren Sie uns per <a style="color:#36641C" href=" mailto:info@hoffmann-optik.de">E-Mail</a> oder Kontaktformular . Wir machen Ihre Augen zu unserer Herzenssache!</p>
+                    
                 </div>
                 <div class="main-form">
                     
@@ -51,9 +53,11 @@ get_header();
                 <div class="empty-div"></div>
                 <div class="info-div">
                 <h2>Randy Freitag</h2>
-                <h3> Founder and Director of GermanEyeCare</h3>
-                <p>Lorem ipsum dolor sit amet consectetur. Mauris risus adipiscing felis iaculis. Sed massa odio eget nullam ornare felis vitae urna risus. Id suspendisse nullam facilisi sed amet. Cursus sed aliquam gravida in nec id. Interdum nisi at ac eu arcu id viverra pellentesque accumsan. Et commodo enim suspendisse maecenas. Auctor velit diam </p>
-                <p>Lorem ipsum dolor sit amet consectetur. Mauris risus adipiscing felis iaculis. Sed massa odio eget nullam ornare felis vitae urna risus. Id suspendisse nullam facilisi sed amet. Cursus sed aliquam gravida in nec id. Interdum nisi at ac eu arcu id viverra pellentesque accumsan. Et commodo enim suspendisse </p>
+                <h3> Inhaber von Hoffmannoptik e.K.</h3>
+                <p>Ist ein international ausgewiesener Fachexperte im Bereich der Augenoptik und Augengesundheit. </p>
+                <p>Als einer der ersten deutschen Augenoptiker erlangte er den Europäischen Titel "EurOptom". Des Weiteren führt er den nationalen Titel "Optometrist (HWK)" und der vom deutschen Berufsverband verliehene Titel "Optometrist (ZVA)" und "Bachelor Professional im Augenoptiker-Handwerk".
+                Ergänzend dazu schloss er das Studium zum Heilpraktiker ab. </p>
+                <p>Seine Augenoptikerlehre sowie die anschliessende Ausbildung zum Augenoptiker-Meister bildeten dabei das Fundament für seine mittlerweile 28-jährige Karriere. Seinen Werdegang runden zahlreiche Weiterbildungen und klinische Praktika ab.</p>
                 </div>
                 
             </div>
@@ -67,9 +71,9 @@ get_header();
     
         <div class="our-section-wrapper">
             <div class="our-section-underwrapper">
-                <h2>Our Services</h2>
+                <h2>Unsere Leistungen</h2>
                 <div class="text-wrapper">
-                    <p>We Provides always our best services for our clients,</p> <a href="/vorteile"> check services <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a>
+                    <p>Wir bieten unseren Kunden stets den besten Service,</p> <a href="/vorteile"> Leistungen lesen <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a>
                 </div>
                 
 
@@ -183,8 +187,8 @@ get_header();
         <div class="container-14">
             <div class="blog-home-wrapper">
                 <div class="blog-home-underwrapper">
-                    <h2>Current specialist articles</h2>
-                    <p>Lorem ipsum dolor sit amet consecteturat augue, <a href="/category/alle"> check blog <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a></p>
+                    <h2>Aktuelle Fachartikel</h2>
+                    <p>Wir informieren Dich über aktuelle Angebote und News, <a href="/category/alle"> Fachartikel lesen <img src="/wp-content/uploads/2024/06/vector_4.webp" ></a></p>
                     <div class="blog-home-list">
                     <?php
                 $post_args= array(

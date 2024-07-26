@@ -7,8 +7,8 @@ get_header();
     <div class="container-14">
         <div class="vision-hero-wrapper">
             <div class="vision-hero-underwrapper">
-                <h1>A world of cooperation.</h1>
-                <h2>together - competent - sustainable</h2>
+                <h1>Eine Welt der Kooperation.</h1>
+                <h2>gemeinsam - kompetent - nachhaltig</h2>
             </div>
         </div>
     </div>
@@ -22,19 +22,24 @@ get_header();
             <div class="our-story-underwrapper">
                 <div class="small-text-wrapper">
                     <div class="small-dot"><img src="/wp-content/uploads/2024/06/green-dot.webp" alt=""></div>
-                    <div class="small-text"><p>Our Story</p></div>
+                    <div class="small-text"><p>Unsere Geschichte</p></div>
                 </div>
                 <div class="heading-and-paragraf">
-                <h1>What is GermanEyeCare for?
+                <h1>Wofür gibt es GermanEyeCare?
                 </h1>
-                <p>We only know about the existence of an object because we can see, hear, taste, smell or feel it. The sense of sight provides us up to 80% all information from the 
-                outside world. </p>
+                <p>Wir wissen von der Existenz eines Gegenstandes nur deshalb, weil wir ihn sehen, hören, schmecken, riechen oder fühlen können. Der Sehsinn liefert uns dabei bis zu 80% aller Informationen aus der Außenwelt. </p>
                 <div class="line-divider"></div>
                 <div class="rest-paragraphs-wrapper">
-                <p>The eyes are among the best  blooded organs in the entire body. Your blood supply, which takes place via your own artery, is closely linked to the blood supply to the brain. Furthermore, the eyes are involved above average in the pairs of brain nerves. A total of six of the twelve pairs of cranial nerves serve to innervate the eyes.</p>
-                <p>These and many other anatomical details, such as the enormous metabolic rate and the high sensory cell density, are influenced by the physiological, growth and aging-related changes but also by external factors. Whether these changes have a normal or pathological character is crucial for maintaining eye health and its influence on vision.If you look at the eyes in the overall human system, there are many aspects for one holistic view, such as diabetes mellitus and eye or healthy vision in the workplace.</p>
-                <p>Optometric screening of the eyes often gives the first diagnostic indications of a general illness or an abnormal development of vision. Then there are no new glasses, but the Mediation to the respective specialist or healthcare provider.So far, the customer has had to strive for the various options for vision deterioration and its clarification.GermanEyeCare would like to close this gap with its interdisciplinary cooperation and make a lasting contribution to holistic eye health. That means: at GermanEyeCare</p>
-                <p>let's take the time for a comprehensive and holistic initial consultation. Should we provide diagnostic information on a general illness or similar Recognize, we mediate in consultation with the patient, to the responsible specialist or healthcare provider. </p>
+                <p>Die Augen zählen dabei zu den am besten durchbluteten Organen des gesamten Körpers. Ihre Blutversorgung, die über eine eigene Arterie erfolgt, ist eng an die Blutversorgung des Gehirns gebunden. </p>
+                <p>Des Weiteren sind die Augen überdurchschnittlich stark an den Hirnnervenpaaren beteiligt. Insgesamt sechs von den zwölf Hirnnervenpaaren dienen der Innervation der Augen. </p>
+                <p>Diese und viele andere anatomische Details, wie die enorme Stoffwechselrate und die hohe Sinneszelldichte, werden durch die physiologischen, wachstums- und alterungsbedingten Veränderungen aber auch von äußeren Faktoren beeinflusst.</p>
+                <p>Ob diese Veränderungen einen normalen oder pathologischen Charakter haben, ist entscheidend für den Erhalt der Augengesundheit und deren Einfluss auf das Sehen.</p>
+                <p>Blickt man auf die Augen im Gesamtsystem Mensch, so ergeben sich viele Aspekte für eine ganzheitliche Betrachtung, wie zum Beispiel bei diabetes mellitus und Auge oder gesundes Sehen am Arbeitsplatz.</p>
+                <p>Bei einem optometrischen Screening der Augen ergeben sich oft die ersten diagnostischen Hinweise auf eine Allgemeinerkrankung oder eine abnorme Entwicklung des Sehens. Dann ist keine neue Brille, sondern die Vermittlung an den jeweiligen Facharzt oder Gesundheitsdienstleister notwendig.</p>
+                <p>Bisher musste sich der Kunde selbst um die verschiedenen Möglichkeiten der Sehverschlechterung und deren Abklärung bemühen.</p>
+                <p>GermanEyeCare möchte mit seiner fachübergreifenden Zusammenarbeit diese Lücke schließen und nachhaltig zu einer ganzheitlichen Augengesundheit beitragen. </p>
+                <p>Das bedeutet: Bei GermanEyeCare nehmen wir uns Zeit für eine umfassende und ganzheitliche Erstberatung. Sollten wir dabei  Diagnostischen Hinweis auf eine Allgemeinerkrankung o.ä. erkennen, vermitteln wir in Absprache mit dem Patienten, an den zuständigen Facharzt oder Gesundheitsdienstleister.</p>
+                <p>Unter  <a style="color:#4C922D" href="/category/alle">"Fachartikel/Blog"</a> erhalten Sie einen Einblick über die vielfältigen Wechselwirkungen an den Augen.</p>
                 </div>
                
                 </div>
@@ -69,7 +74,7 @@ get_header();
     <div class="container-14">
         <div class="expertise-section-wrapper">
             <div class="expertise-section-underwrapper">
-                <h2>Expertise is the key...<img src="/wp-content/uploads/2024/06/play-button-icon.webp" ></h2>
+                <h2>Expertise ist der Schlüssel...<img src="/wp-content/uploads/2024/06/play-button-icon.webp" ></h2>
             </div>
         </div>
     </div>
@@ -82,14 +87,15 @@ get_header();
             <div class="our-partners-wrapper">
                 <div class="our-partners-underwrapper">
                     <div class="heading-and-text">
-                    <h2>Our partners</h2>
-                    <p>In the belief that holistic eye care requires interdisciplinary cooperation, Randy Freitag has built up a comprehensive national network of health partners.  </p>
+                    <h2>Unsere Partner</h2>
+                    <p>In der Überzeugung, dass eine ganzheitliche Augenversorgung eine fachübergreifende Zusammenarbeit erfordert, hat Randy Freitag ein umfassendes nationales Netzwerk an Gesundheitspartnern aufgebaut.  
+                      </p>
                     </div>
                     <div class="two-banners-wrapper">
                         <div class="main-banners">
                         <div class="single-banner banner-with-border">
                             <h2>ABW</h2>
-                            <p>For example, if an accommodative inward squint is diagnosed in a child, further treatment by an ophthalmologist / orthoptist is necessary.</p>
+                            <p>Wird zum Beispiel bei einem Kind ein akkommodatives Einwärtsschielen erkannt, ist die weitere Behandlung durch einen <a href="https://abw-netz.de/Das-Augenaerztenetz-Baden-Wuerttemberg.8.0.html" target="_blank" style="color:#4C922D">Augenarzt / Orthoptistin</a>  notwendig.</p>
                             <div class="single-banner-img-wrapper">
                             <img src="/wp-content/uploads/2024/06/abw-logo.webp" >
                             </div>
@@ -97,8 +103,8 @@ get_header();
                         </div>
                         <div class="single-banner banner-without-border">
                             <h2>BSVSB</h2>
-                            <p>Whereas for a blind or visually impaired person, it is advisable to put them in touch with a social institution such as the
-                            South Baden Association for the Blind and Visually Impaired in order to possibly apply for blindness benefits. </p>
+                            <p>Wohingegen bei einem Blinden oder sehbehinderten Menschen die Kontaktvermittlung zu einer sozialen Einrichtung wie dem
+                            <a href="https://abw-netz.de/Das-Augenaerztenetz-Baden-Wuerttemberg.8.0.html" target="_blank" style="color:#4C922D">Blinden- und Sehbehindertenverein Südbaden e.V.</a> angezeigt ist, um eventuell Blindengeld zu beantragen.  </p>
                             <div class="single-banner-img-wrapper">
                             <img src="/wp-content/uploads/2024/06/bsvsb-logo.webp" >
                             </div>
@@ -110,7 +116,7 @@ get_header();
                             <div class="under-black-baner-img"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M43.5 4.5C37.1616 4.52719 32.4497 5.4 29.04 6.90844C26.4956 8.03344 25.5 8.88469 25.5 11.7684V42C29.3972 38.4844 32.8556 37.5 46.5 37.5V4.5H43.5ZM4.5 4.5C10.8384 4.52719 15.5503 5.4 18.96 6.90844C21.5044 8.03344 22.5 8.88469 22.5 11.7684V42C18.6028 38.4844 15.1444 37.5 1.5 37.5V4.5H4.5Z" fill="#F9FAFD"/>
 </svg></div>
-                            <div class="under-black-banner-paragraph"><p>We can also arrange <span>internships</span> for students with various health care providers for optimal training and further education.</p></div>
+                            <div class="under-black-banner-paragraph"><p>Genauso können wir <span>Praktika </span> von Studenten bei verschiedenen Gesundheitsdienstleistern für eine optimale Aus- und Weiterbildung vermitteln.</p></div>
                         </div>
                         </div>
                         
@@ -126,24 +132,35 @@ get_header();
         <div class="container-14">
             <div class="helthcare-wrapper">
                 <div class="helthcare-underwrapper">
-                    <h2>Here is an excerpt from our healthcare partners:</h2>
+                    <h2>Hier ein Auszug unserer Gesundheitspartner:</h2>
                     
                 </div>
             </div>
         </div>
         <div class="marquee-content">
                         <marquee scrollamount="10"> 
-                            Endocrinologists <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            Diabetologists <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            Oncologists <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            Radiologists <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            Neurologists <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            Orthoptists <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            HoffmannOptik <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            Eye care center <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            Optometrists <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            Vision schools <img src="/wp-content/uploads/2024/06/green-dot.webp">
-                            Cardiologists <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Augenärzten <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Allgemeinärzten <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Kardiologen <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Diabetologe <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Endokrinologe <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Onkologe <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Orthoptisten <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Heilpraktiker <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        HoffmannOptik <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Augenfürsorgezentrum <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Optometristen <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Sehschulen <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Sehzentren (WVAO) <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Kontaktlinsenstudios <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Funktionaloptometristen <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Blinden- und Sehbehindertenverein Südbaden <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Berufsverbänden <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Verschiedenen sozialen Einrichtungen <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Brillenglashersteller <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Kontaktlinsenhersteller <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        Hersteller von Low-Vision Produkten <img src="/wp-content/uploads/2024/06/green-dot.webp">
+                        
                         </marquee>
                         
      </div>

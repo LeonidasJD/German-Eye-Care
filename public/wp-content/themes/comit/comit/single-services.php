@@ -78,8 +78,8 @@
     <div class="container-14">
     <section class="related-services-section-wrapper">
     <div class="related-services-section-underwrapper">
-        <h2>Weitere Leistungen</h2>
-        <p class="related-services-underhead">Dignissim massa duis eget turpis fringilla nam ridiculus ultricies urna vehicula fusce. Elit interdum urna iaculis leo sit pharetra vel. Vitae letius luctus lacinia rhoncus penatibus per.</p>
+        <h2>Weitere Vorteile</h2>
+        <p class="related-services-underhead">Weitere ähnliche Vorteile finden Sie hier</p>
         <div class="related-services-cards-wrapper">
 
         <?php 
