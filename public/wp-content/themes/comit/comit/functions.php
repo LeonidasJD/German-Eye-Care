@@ -188,9 +188,12 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 // SERVICE CUSTOM POST START
 function services_custom_post_type(){
-	$services_args = array(
+	$vorteile_args = array(
 		'public'=> true,
-		'label'=>'Services',
+		'label'=>'Vorteile',
+		'add_new' => 'Add New Vorteile',
+		'add_new_item' => 'Add New Vorteile',
+		'edit_item' => 'Edit Vorteile',
 		'supports'=>array(
 			'title','editor','thumbnail','excerpt',
 		),
@@ -198,7 +201,7 @@ function services_custom_post_type(){
 		'menu_icon'   => 'dashicons-editor-kitchensink',
 	);
 
-	register_post_type('services',$services_args);
+	register_post_type('services',$vorteile_args);
 }
 add_action('init','services_custom_post_type');
 // SERVICE CUSTOM POST END

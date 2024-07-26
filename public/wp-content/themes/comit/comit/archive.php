@@ -7,8 +7,8 @@ get_header();
     <div class="container-14">
         <div class="blog-section-wrapper">
             <div class="blog-section-underwrapper">
-                <h1>Search out articles</h1>
-                <p>Lorem ipsum dolor sit amet censectur. Adiscpising elit</p>
+                <h1>Artikel suchen</h1>
+                
                 <div class="search-bar"><?php echo do_shortcode('[wd_asp id=1]'); ?></div>
             </div>
         </div>
