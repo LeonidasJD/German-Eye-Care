@@ -1,7 +1,16 @@
 .container-header{
     border-bottom: 1px solid var(--zelena-primarna);
+   
 }
-
+@media screen and (min-width:1024px){
+.container-header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+}
+}
 .header-under-wrapper{
     display: flex;
     justify-content:space-between ;
@@ -84,6 +93,11 @@
 .mobile-heahder-wrapper{
     padding: 15px 10px;
     border-bottom: 1px solid #5B9356;
+    position: fixed;
+    width: 100%;
+    z-index: 1201;
+    background-color: white;
+    top: 0;
 }
 .hamburger-wrapper{
     display: flex;
@@ -94,6 +108,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 20px;
 }
 
 .mobile-logo{

@@ -136,11 +136,17 @@ var openDropwdown =document.getElementById('open-dropdown-menu');
 var closeDropdown = document.getElementById('close-mobile-menu-btn');
 var underMenuWrapper =document.getElementById('under-wrapper');
 
-openDropwdown.addEventListener('click', function(){
-	underMenuWrapper.style.top = "0%";
+openDropwdown.addEventListener('click', function() {
+    // Dobijanje trenutne pozicije skrolovanja
+    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    // Postavljanje pozicije menija na trenutnu poziciju skrolovanja
+    underMenuWrapper.style.top = scrollPosition + 'px';
+   
 });
-closeDropdown.addEventListener('click', function(){
-underMenuWrapper.style.top = "-220%";
+
+closeDropdown.addEventListener('click', function() {
+    underMenuWrapper.style.top = "-220%";
+    
 });
 
 var neuButton =document.getElementById('neu-button');

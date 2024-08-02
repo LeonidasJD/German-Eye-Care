@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 50px;
 }
 .vision-hero-underwrapper{
     padding: 138px 0px 155px 0px;
@@ -304,7 +305,7 @@
         border-radius: 0px 0px 6px 6px;
     }
     .vision-hero-underwrapper{
-        padding: 50px 0px 440px 0px;
+        padding: 90px 0px 440px 0px;
     }
     .vision-hero-underwrapper h1{
         font-size: 30px;

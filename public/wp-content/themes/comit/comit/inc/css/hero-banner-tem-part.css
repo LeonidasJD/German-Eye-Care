@@ -2,6 +2,7 @@
     background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
+  margin-top: 50px;
   
 }
 .overlay{
@@ -19,4 +20,11 @@
 
     text-align: center;
 
+}
+
+@media screen and (max-width:768px) {
+    .hero-banner-wrapper{
+        margin-top: 0px;
+    }
+    
 }

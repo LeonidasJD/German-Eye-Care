@@ -1,5 +1,7 @@
 /* HERO SECTION CSS START */
-
+.hero-container{
+    margin-top: 90px;
+}
 .hero-section-wrapper{
     background-image: url(/wp-content/uploads/2024/06/slika-scaled.webp);
     background-position: center;

@@ -1,9 +1,11 @@
 /* HERO AND SEARCH BAR CSS START */
+
 .blog-section-container{
     background-image: url('/wp-content/uploads/2024/06/magnifying-glass-scaled.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 50px;
 }
 .blog-section-wrapper{
     padding: 105px 65px 97px 65px;
@@ -251,6 +253,7 @@ div.asp_r.asp_w.vertical .results .item::after{
     }
     .blog-section-wrapper{
         padding: 10px 0px 30px 0px;
+        margin-top: 50px;
 
     }
     .blog-section-underwrapper{

@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 50px;
 }
 .services-hero-wrapper{
     padding: 96px 0px 105px 231px;
@@ -102,7 +103,7 @@
 @media screen and (max-width: 768px){
     .services-hero-container{
         background-image: url('/wp-content/uploads/2024/07/woman-with-galsses.webp');
-        margin: 23px 10px 0px 10px;
+        margin: 40px 10px 0px 10px;
         border-radius: 10px;
         position: relative;
         z-index: 1200;

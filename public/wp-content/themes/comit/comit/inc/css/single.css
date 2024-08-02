@@ -1,6 +1,7 @@
 /*POST INFO CSS START*/
 .container-single-post-info{
     background-color: white;
+    margin-top: 100px;
 }
 .single-post-info-wrapper{
     background-color: white;
@@ -157,6 +158,7 @@ border-radius: 6px;
 @media screen and (max-width: 768px) {
     .single-post-info-wrapper{
         background-color: #FFFFFF;
+        margin-top: 90px;
     }
     .single-post-info-underwrapper{
         padding: 30px 10px 56px 10px;
