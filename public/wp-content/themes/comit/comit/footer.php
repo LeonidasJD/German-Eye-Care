@@ -23,7 +23,7 @@
 				<div class="footer-wrapper">
 					<div class="footer-under-wrapper">
 						<div class="footer-nav-wrapper">
-						<div class="logo-div-up"><img src="/wp-content/uploads/2024/06/vector-1.webp" ></div>
+						<div class="logo-div-up"><img src="/wp-content/uploads/2024/08/footer.webp" ></div>
 						<div class="footer-nav">
 							<h2 class="footer-nav-title">Menü</h2>
 							<?php wp_nav_menu(array(
@@ -58,10 +58,12 @@
 								<div class="copyright-content">
 									<p>Copyright © 2024 Hoffmannoptik. All rights reserved.</p>
 									<div class="footer-small-divider"></div>
-									<a href="#">Datenschutzerklärung </a>
+									<a href="/datenschutzerklarung">Datenschutzerklärung </a>
+									<div class="footer-small-divider"></div>
+									<a href="/impressum">Impressum </a>
 								</div>
 							</div>
-							<div class="logo-div-down"><img src="/wp-content/uploads/2024/06/vector-1.webp" ></div>
+							<div class="logo-div-down"><img src="/wp-content/uploads/2024/08/footer.webp" ></div>
 						</div>
 					</div>
 				</div>

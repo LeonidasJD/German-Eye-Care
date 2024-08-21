@@ -53,7 +53,7 @@ get_header();
                 <div class="empty-div"></div>
                 <div class="info-div">
                 <h2>Randy Freitag</h2>
-                <h3> Inhaber von Hoffmannoptik e.K.</h3>
+                <h3> Der Gründer von GermanEyeCare und Inhaber von Hoffmannoptik e.K.</h3>
                 <p>Ist ein international ausgewiesener Fachexperte im Bereich der Augenoptik und Augengesundheit. </p>
                 <p>Als einer der ersten deutschen Augenoptiker erlangte er den Europäischen Titel "EurOptom". Des Weiteren führt er den nationalen Titel "Optometrist (HWK)" und der vom deutschen Berufsverband verliehene Titel "Optometrist (ZVA)" und "Bachelor Professional im Augenoptiker-Handwerk".
                 Ergänzend dazu schloss er das Studium zum Heilpraktiker ab. </p>

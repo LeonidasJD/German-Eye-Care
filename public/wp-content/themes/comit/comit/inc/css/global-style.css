@@ -13,6 +13,8 @@
 @import url(./mobile-side-banner.css);
 @import url(./404.css);
 @import url(./email-template.css);
+@import url(./datenschutz.css);
+@import url(./impressum.css);
 :root{
     --bela:#FFFFFF;
     --svetlo-zelena:#61C555;

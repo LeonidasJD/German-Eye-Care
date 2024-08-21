@@ -7,7 +7,7 @@ get_header();
         <div class="contact-section-wrapper">
             <div class="contact-section-underwrapper">
                 <h1>Kontakt</h1>
-                <p>Use our contact form, write an email or call the store directly:</p>
+                <p>Schreibe uns eine Nachricht oder rufe uns im Geschäft an</p>
                 <div class="map-and-form-wrapper">
                     <div class="shop-section">
                         <div class="shop-wrapper">
@@ -18,7 +18,7 @@ get_header();
                         <li><img src="/wp-content/uploads/2024/06/phone-icon.webp" ><p><a href="tel:076313375">07631-3375</a></p></li>
                     </ul>
                     <div class="info-button-app button-type-3">
-                        <a href="https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start">Book an appointment <svg class="clock-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <a href="https://www.click2date.eu/hoffmann-Optik-muellheim/appointment/start">Termin buchen <svg class="clock-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8.79395 5.48047V11.8098H15.1233" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9.79395 19.5C14.7645 19.5 18.7939 15.4705 18.7939 10.5C18.7939 5.52943 14.7645 1.5 9.79395 1.5C4.82338 1.5 0.793945 5.52943 0.793945 10.5C0.793945 15.4705 4.82338 19.5 9.79395 19.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg></a>
@@ -32,7 +32,7 @@ get_header();
                         <li><img src="/wp-content/uploads/2024/06/phone-icon.webp" ><p><a href="tel:0763173606">07631-73606</a></p></li>
                     </ul>
                     <div class="info-button-app button-type-3">
-                    <a  href="https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start">Book an appointment <svg class="clock-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a  href="https://www.click2date.eu/hoffmann-optik-neuenburg/appointment/start">Termin buchen <svg class="clock-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8.79395 5.48047V11.8098H15.1233" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9.79395 19.5C14.7645 19.5 18.7939 15.4705 18.7939 10.5C18.7939 5.52943 14.7645 1.5 9.79395 1.5C4.82338 1.5 0.793945 5.52943 0.793945 10.5C0.793945 15.4705 4.82338 19.5 9.79395 19.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg></a>

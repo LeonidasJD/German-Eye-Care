@@ -102,6 +102,7 @@ object-fit: cover;
     font-size: 18px;
     color: white;
     font-weight: 400;
+	text-align:center;
 }
 .side-banner-wrapper a{
     border: 2px solid white;

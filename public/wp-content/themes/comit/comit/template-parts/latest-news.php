@@ -37,8 +37,8 @@
     </div>
      <!--LATEST BLOG SECTION END-->
      <div class="side-banner-wrapper">
-    <h2>Consultation Service</h2>
-    <p>If you have questions, feel free to call us anytime!</p>
+    <h2>Kontakt</h2>
+    <p>Hast Du Fragen oder möchtest Du einen Termin vereinbaren?<br><br> Dann ruf uns gerne an:</p>
     <a href="tel:076313375">07631-3375</a>
     <div class="side-image">
     <img src="/wp-content/uploads/2024/06/logo.webp" >

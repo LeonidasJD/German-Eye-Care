@@ -20,10 +20,10 @@ get_header();
     <div class="container-14">
         <div class="our-story-wrapper">
             <div class="our-story-underwrapper">
-                <div class="small-text-wrapper">
+                <!--<div class="small-text-wrapper">
                     <div class="small-dot"><img src="/wp-content/uploads/2024/06/green-dot.webp" alt=""></div>
                     <div class="small-text"><p>Unsere Geschichte</p></div>
-                </div>
+                </div> -->
                 <div class="heading-and-paragraf">
                 <h1>Wofür gibt es GermanEyeCare?
                 </h1>
@@ -56,9 +56,10 @@ get_header();
         <div class="check-section-wrapper">
             <div class="check-section-underwrapper">
                 <div class="check-data">
-                <h2>Get an insight into our blogs</h2>
-                <p>Lorem ipsum dolor sit amet consectetur. Adipiscing elit faucibus elit lacinia laoreet molestie. Nunc orci venenatis </p>
-                <a class="button-type-1" href="/category/alle">Check our blog</a>
+                <h2>Werfen Sie einen Blick in unsere Blogs</h2>
+                <p>Tauchen Sie ein in spannende Themen, aktuelle Trends und wertvolle Tipps. Klicken Sie hier, um mehr zu erfahren und stets informiert zu bleiben!
+</p>
+                <a class="button-type-1" href="/category/alle">Besuchen Sie unseren Blog</a>
                 </div>
                 
             </div>

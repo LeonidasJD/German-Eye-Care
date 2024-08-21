@@ -52,7 +52,7 @@
             'theme_location' => 'menu-1'
         ) 
     );  ?></div>
-		<div class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/uploads/2024/06/vector.webp" alt=""></a></div>
+		<div class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/uploads/2024/08/desktop_nav.webp" alt=""></a></div>
 		<div class="button-wrapper">
 			
 			<a class="button-type-2 contact-button" href="/kontakt/">Kontakt</a>
@@ -71,7 +71,7 @@
 <div class="mobile-heahder-wrapper">
 		<header>
 			<div class="header-items-wrapper">
-			<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="mobile-logo" src="/wp-content/uploads/2024/06/vector.webp" ></a></div>
+			<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="mobile-logo" src="/wp-content/uploads/2024/08/mobile_nav.webp" ></a></div>
 			<div class="btn-and-hamburger">
 			<div class="header-contact-button"><a href="/kontakt/">Kontakt</a></div>
 			<div id="open-dropdown-menu" class="hamburger-wrapper"><img class="hamburger-icon" src="/wp-content/uploads/2024/07/dropdown-icon.webp" ></div>
